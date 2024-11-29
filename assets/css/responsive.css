@@ -1,0 +1,6518 @@
+/* Normal desktop :1400px. */
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+/*Home 1 Resopnsive*/
+
+.hero-social-icon {
+    left: 15px;
+}
+
+.text-box span {
+    font-size: 20px;
+}
+
+.project-area {
+    padding-left: 199px;
+}
+
+/*===============Home two Responsive Css============*/
+
+.home-two .project-content {
+    width: 84%;
+}
+
+/*===============Home Three Responsive Css============*/
+.home-three .header-menu ul li {
+    margin-right: 34px;
+}
+
+.home-three .header-button {
+    margin-right: 10px;
+}
+
+.home-three .header-secrch-icon i {
+    width: 17px;
+}
+
+.home-three.project-area .container-fluid {
+    margin: 0 0 0 41px;
+}
+
+/*===============Home Four Responsive Css============*/
+.home-four .header-menu ul li {
+    margin-right: 32px;
+}
+
+/*===============Home Five Responsive Css============*/
+.home-five .hero-info {
+    left: -248px;
+}
+
+.hero-slide-five .owl-dots {
+    left: 40%;
+    width: 26%;
+    padding: 49px 103px;
+}
+
+.slider-counter:before {
+   display: none;
+}
+
+.home-five .section-title.left h1 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+/*===============Home Six Responsive Css============*/
+.home-six.skill-area {
+    background-position: center left;
+}
+
+/*===============Home Seven Responsive Css============*/
+
+.services-title-area.home-seven .row.upper {
+    margin-left: 100px;
+}
+
+.home-seven .project-content-two {
+    width: 88%;
+}
+
+
+
+
+
+
+
+
+}
+
+/* Normal desktop :1300px. */
+@media (min-width: 1300px) and (max-width: 1399px) {
+
+/*Home 1 Resopnsive*/
+.header-menu ul li {
+    margin-right: 39px;
+}
+
+.hero-social-icon {
+    left: 32px;
+}
+
+.about-area .section-title.left {
+    margin-bottom: 28px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+img.about-thumb-shape {
+    bottom: -8px;
+    width: 58%;
+}
+
+.about-box-content p {
+    width: 70%;
+}
+
+.about-shape-1 {
+    right: -15px;
+}
+
+.section-title.left h4 {
+    margin-bottom: 19px;
+}
+
+.section-title.left h1 {
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.service-area {
+    padding: 113px 0 112px;
+}
+
+.skills-item {
+    width: 49%;
+}
+
+.skills-item-content {
+    padding: 18px 21px 18px 26px;
+}
+
+.skills-item-title h4 {
+    font-size: 18px;
+}
+
+.porcess-thumb img {
+    width: 100%;
+}
+
+.project-area {
+    padding-left: 171px;
+}
+
+.project-area .owl-nav {
+    position: relative;
+    left: 210px;
+    top: 49px;
+}
+
+.project-content a {
+    font-size: 24px;
+}
+
+.single-testimonial-box {
+    padding: 34px 32px 32px;
+}
+
+.single-shape {
+    right: 3px;
+    top: -7px;
+}
+
+
+
+/*===============Home two Responsive Css============*/
+
+.home-two.header-area .header-menu ul li {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.home-two .hero-content h1 {
+    font-size: 65px;
+    line-height: 65px;
+}
+
+.home-two .about-video { 
+   right: 33px;
+}
+
+.home-two.counter-area .section-title.left h1 {
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.counter-content p {
+    font-size: 17px;
+    margin: -2px 0 0;
+}
+
+.home-two .project-content {
+    width: 86%;
+}
+
+.blog-content a {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.footer-social-address-content h4 {
+    font-size: 31px;
+}
+
+.home-two p.footer-desc {
+    width: 80%;
+}
+
+.home-two .footer-widget-blog-content a {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/*===============Home Three Responsive Css============*/
+.home-three .header-menu ul li {
+    margin-right: 25px;
+}
+
+.home-three .header-button {
+    margin-right: 10px;
+}
+
+.home-three .header-button a {
+    padding: 14px 29px;
+    margin-left: 0;
+}
+
+.home-three .header-secrch-icon i {
+    width: 0;
+}
+
+.home-three .single-service-box {
+    padding: 50px 9px 49px;
+}
+
+.home-three .services-content h4 {
+    font-size: 16px;
+}
+
+.home-three.project-area .container-fluid {
+    margin: 0 0 0 41px;
+}
+
+.home-three .meta-blog span {
+    margin-right: 13px;
+}
+
+.home-three .blog-title a {
+    font-size: 19px;
+    line-height: 29px;
+}
+
+
+/*===============Home Four Responsive Css============*/
+
+
+.home-four .about-thumb {
+    position: relative;
+    left: -72px;
+}
+
+.home-four .about-text h4 {
+    font-size: 18px;
+}
+
+.home-four .single-services-box {
+    padding: 35px 21px 45px;
+}
+
+.home-four .testi-thumb {
+    position: relative;
+    left: 9px;
+}
+
+.home-four .call-do-action-content h4 {
+    font-size: 37px;
+}
+
+/*===============Home Six Responsive Css============*/
+
+.home-six.header-area .header-menu ul li {
+    margin-right: 23px;
+}
+
+.home-six.about-area .about-thumb {
+    left: -43px;
+}
+
+.home-six .about-list-item ul li {
+    font-size: 15px;
+}
+
+.home-six.service-area .row.upper {
+    margin-left: 55px;
+}
+
+.home-six .why-choose-thumb {
+    left: -379px;
+}
+
+.home-six.skill-area {
+    background-position: center left;
+}
+
+.home-six .blog-content a {
+    font-size: 20px;
+}
+
+.home-six .contact-left {
+    left: -69px;
+}
+
+.footer-widget-blog-thumb img {
+    width: 100%;
+}
+
+
+/*===============Home Seven Responsive Css============*/
+
+.home-seven .hero-content h1 {
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.home-seven .hero-img {
+    bottom: 100px;
+    left: 30%;
+}
+
+.services-title-area.home-seven .row.upper {
+    margin-left: 100px;
+}
+
+.home-seven .project-content-two {
+    width: 88%;
+}
+
+.home-seven .contact-left iframe {
+    width: 104%;
+}
+
+
+
+
+/*===============All Inner Pages Responsive Css============*/
+.recent-widget-content a {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+h4.blog-details-title {
+    font-size: 28px;
+}
+
+.blog-post-content a {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+
+/*===============Home Five Responsive Css============*/
+.home-five .hero-info {
+    left: -248px;
+}
+
+.hero-slide-five .owl-dots {
+    left: 40%;
+    width: 26%;
+    padding: 49px 103px;
+}
+
+.slider-counter:before {
+  display: none;
+}
+
+.home-five .section-title.left h1 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.home-five .about-item-text h4 {
+    font-size: 15px;
+}
+
+.home-five .about-shape {
+    display: none;
+}
+
+.home-five .about-thumb {
+    position: relative;
+    left: -45px;
+}
+
+.home-five .about-icon img {
+    width: 44%;
+}
+
+.home-five .nav-link {
+    padding: 24px 83px;
+}
+
+.home-five .section-title.left h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.home-five .blog-content {
+    padding: 27px 22px 41px;
+    width: 94%;
+}
+
+.home-five .blog-content a {
+    font-size: 19px;
+}
+
+.home-five .footer-widget-gallery a img {
+    width: 30%;
+}
+
+
+
+
+
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+/*Home 1 Resopnsive*/
+.header-menu ul li {
+    margin-right: 38px;
+}
+
+.hero-social-icon {
+    left: 15px;
+    display: none;
+}
+
+.about-area .section-title.left {
+    margin-bottom: 28px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+img.about-thumb-shape {
+    bottom: -8px;
+    width: 58%;
+}
+
+.about-box-content p {
+    width: 70%;
+}
+
+.about-shape-1 {
+    right: -15px;
+}
+
+.section-title.left h4 {
+    margin-bottom: 19px;
+}
+
+.section-title.left h1 {
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.service-area {
+    padding: 113px 0 116px;
+}
+
+.skills-item {
+    width: 49%;
+}
+
+.skills-item-content {
+    padding: 18px 21px 18px 26px;
+}
+
+.skills-item-title h4 {
+    font-size: 18px;
+}
+
+.porcess-thumb img {
+    width: 100%;
+}
+
+.project-area {
+    padding-left: 171px;
+}
+
+.project-area .owl-nav {
+    position: relative;
+    left: 210px;
+    top: 49px;
+}
+
+.project-content a {
+    font-size: 24px;
+}
+
+.single-testimonial-box {
+    padding: 34px 32px 32px;
+}
+
+.single-shape {
+    right: 3px;
+    top: -7px;
+}
+
+.testi-shape {
+    left: 17%;
+}
+
+
+
+/*===============Home two Responsive Css============*/
+
+.home-two.header-area .header-menu ul li {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.home-two .hero-content h1 {
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.home-two .about-video { 
+   right: 33px;
+}
+
+.home-two.service-title-area .section-title.center {
+    margin-bottom: 18px;
+}
+
+.home-two .row.service-up {
+    margin-top: -354px;
+}
+
+.home-two.counter-area .section-title.left h1 {
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.counter-content p {
+    font-size: 17px;
+    margin: -2px 0 0;
+}
+
+.donation-area .section-title.center {
+    margin-bottom: 9px;
+}
+
+.donation-area .row.donate {
+    margin-top: -241px;
+}
+
+.home-two .project-content {
+    width: 86%;
+}
+
+.blog-content a {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.footer-social-address-content h4 {
+    font-size: 31px;
+}
+
+.home-two p.footer-desc {
+    width: 80%;
+}
+
+.home-two .footer-widget-blog-content a {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/*===============Home Three Responsive Css============*/
+.home-three .header-menu ul li {
+    margin-right: 11px;
+}
+
+.home-three .header-button {
+    margin-right: 10px;
+}
+
+.home-three .header-button a {
+    padding: 14px 29px;
+    margin-left: 0;
+}
+
+.home-three .header-secrch-icon i {
+    width: 40px;
+}
+
+.home-three .single-service-box {
+    padding: 50px 9px 49px;
+}
+
+.home-three .services-content h4 {
+    font-size: 16px;
+}
+
+.home-three.project-area .container-fluid {
+    margin: 0 0 0 41px;
+}
+
+.home-three .meta-blog span {
+    margin-right: 13px;
+}
+
+.home-three .blog-title a {
+    font-size: 19px;
+    line-height: 29px;
+}
+
+.home-three .subscribe-box input {
+    width: 68%;
+}
+
+
+/*===============Home Four Responsive Css============*/
+.home-four .header-menu ul li {
+    margin-right: 14px;
+}
+
+.home-four .about-thumb {
+    position: relative;
+    left: -72px;
+}
+
+.home-four .about-text h4 {
+    font-size: 18px;
+}
+
+.home-four .single-services-box {
+    padding: 35px 21px 45px;
+}
+
+.home-four .testi-thumb {
+    position: relative;
+    left: 9px;
+}
+
+.home-four .call-do-action-content h4 {
+    font-size: 37px;
+}
+
+/*===============All Inner Pages Responsive Css============*/
+
+/*widget-sidber*/
+.widget-sidber-contact-btn  a {
+    padding: 16px 63px 15px;
+}
+
+.recent-widget-content a {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+h4.blog-details-title {
+    font-size: 28px;
+}
+
+.blog-post-content a {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+/*===============Home Five Responsive Css============*/
+.home-five .hero-info {
+    left: -248px;
+}
+
+.hero-slide-five .owl-dots {
+    left: 40%;
+    width: 36%;
+    padding: 49px 103px;
+}
+
+.slider-counter {
+    left: 61%;
+}
+
+.slider-counter:before {
+  display: none;
+}
+
+.home-five .section-title.left h1 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.home-five .about-item-text h4 {
+    font-size: 15px;
+}
+
+.home-five .about-shape {
+    display: none;
+}
+
+.home-five .about-thumb {
+    position: relative;
+    left: -45px;
+}
+
+.home-five .about-icon img {
+    width: 44%;
+}
+
+.home-five .nav-link {
+    padding: 24px 83px;
+}
+
+.home-five .section-title.left h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.home-five .blog-content {
+    padding: 27px 22px 41px;
+    width: 94%;
+}
+
+.home-five .blog-content a {
+    font-size: 19px;
+}
+
+.home-five .footer-widget-gallery a img {
+    width: 30%;
+}
+
+/*===============Home Six Responsive Css============*/
+
+.home-six.header-area .header-menu ul li {
+    margin-right: 23px;
+}
+
+.hero-area.home-six .hero-content h1 {
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.home-six.about-area .about-thumb {
+    left: -43px;
+}
+
+.home-six .about-list-item ul li {
+    font-size: 15px;
+}
+
+.home-six.service-area .row.upper {
+    margin-left: 55px;
+}
+
+.home-six .why-choose-thumb {
+    left: -379px;
+}
+
+.home-six.skill-area {
+    background-position: center left;
+}
+
+.home-six .blog-content a {
+    font-size: 20px;
+}
+
+.home-six .contact-left {
+    left: -69px;
+}
+
+.home-six .contact-content h4 {
+    font-size: 40px;
+    line-height: 36px;
+}
+
+.footer-widget-blog-thumb img {
+    width: 100%;
+}
+
+/*===============Home Seven Responsive Css============*/
+
+.home-seven .hero-content h1 {
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.home-seven .hero-img {
+    bottom: 100px;
+    left: 30%;
+}
+
+.services-title-area.home-seven .row.upper {
+    margin-left: 100px;
+}
+
+.home-seven .project-content-two {
+    width: 88%;
+    padding: 25px 17px 24px;
+}
+
+.home-seven .contact-left iframe {
+    width: 104%;
+}
+
+.home-seven .counter-content-two h4 {
+    font-size: 109px;
+    bottom: -16px;
+    left: -26px;
+}
+
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/*Home 1 Resopnsive*/
+.top-header-info ul li {
+    margin-right: 4px;
+}
+
+.header-menu ul li {
+    margin-right: 20px;
+}
+
+.header-menu ul li:last-child {
+    margin-right: 18px;
+}
+
+.hero-area {
+    height: 815px;
+    position: relative;
+}
+
+.hero-social-icon {
+   display: none;
+}
+
+.about-area {
+    padding: 110px 0 123px;
+}
+
+.about-area .section-title.left {
+    margin-bottom: 28px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+img.about-thumb-shape {
+    bottom: -8px;
+    width: 58%;
+}
+
+.about-shape-1 {
+    right: -15px;
+}
+
+.section-title.left h4 {
+    margin-bottom: 10px;
+}
+
+.section-title.left h1 {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.service-area {
+    padding: 113px 0 111px;
+}
+
+.single-service-box {
+    padding: 15px;
+}
+
+.service-content {
+    padding: 35px 26px 159px;
+}
+
+.service-content h4 {
+    font-size: 22px;
+}
+
+.skills-item {
+    margin-bottom: 21px;
+}
+
+.skills-thumb {
+    left: -26px;
+}
+
+.service-thumb img {
+    padding: 0 20px;
+}
+
+.counter-area {
+    background-position: center center;
+}
+
+.porcess-thumb img {
+    width: 100%;
+}
+
+.project-area {
+    padding: 285px 0 0;
+    padding-left: 120px;
+    margin-top: -176px;
+}
+
+.project-area .owl-nav {
+    position: relative;
+    left: 252px;
+    top: 6px;
+}
+
+.project-content {
+    padding: 30px 18px 28px;
+    width: 92%;
+}
+
+.project-content a {
+    font-size: 24px;
+}
+
+.single-process-box-two {
+    padding: 0 19px 0;
+}
+
+.testimonial-area {
+    background-position: center;
+}
+
+.single-testimonial-box {
+    padding: 34px 32px 32px;
+}
+
+.testi-shape-tow {
+    left: 4%;
+}
+
+.testi-shape-four {
+    right: 4%;
+}
+
+.single-shape {
+    right: 3px;
+    top: -7px;
+}
+
+.testi-shape {
+    left: 17%;
+}
+
+.blog-content {
+    padding: 27px 22px 28px;
+}
+
+.blog-content a {
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.footer-social-address-content h4 {
+    font-size: 31px;
+}
+
+/*===============Home two Responsive Css============*/
+
+.home-two.header-area .header-menu ul li {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.home-two .header-button a {
+    padding: 10px 15px;
+    margin-left: 12px;
+}
+
+.header-sidbar-button i {
+    margin-left: 0;
+    font-size: 30px;
+}
+
+.home-two .hero-content h1 {
+    font-size: 48px;
+    line-height: 51px;
+}
+
+.home-two .about-video { 
+   right: 33px;
+}
+
+.home-two .about-single-box {
+    gap: 30px;
+}
+
+.home-two .about-author-box {
+    gap: 15px;
+}
+
+.home-two .about-author-content h4 {
+    font-size: 16px;
+}
+
+.home-two .about-author-content p {
+    margin-top: 3px;
+}
+
+.home-two.counter-area .section-title.left h1 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.home-two .single-counter-box {
+    gap: 11px;
+}
+
+.home-two .counter-content h4 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.home-two .counter-content span {
+    font-size: 26px;
+}
+
+.home-two .counter-content p {
+    font-size: 13px;
+    margin: -2px 0 0;
+}
+
+.home-two.service-title-area .section-title.center {
+    margin-bottom: 66px;
+}
+
+.home-two .row.service-up {
+    margin-top: -416px;
+}
+
+.home-two .project-content {
+    width: 73%;
+}
+
+.faq-singular .faq-question {
+    font-size: 15px;
+}
+
+.donation-title-area {
+    padding: 109px 0 213px;
+}
+
+.donation-area .row.donate {
+    margin-top: -201px;
+}
+
+.donation-content {
+    padding: 26px 13px 23px;
+}
+
+.donation-content a {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.blog-content a {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.footer-social-address-content h4 {
+    font-size: 31px;
+}
+
+.home-two p.footer-desc {
+    width: 95%;
+}
+
+.home-two .footer-widget-blog-content a {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+
+/*===============Home Three Responsive Css============*/
+.home-three .header-menu ul li {
+    margin-right: 11px;
+}
+
+.home-three .header-menu ul li a {
+    font-size: 11px;
+}
+
+.home-three .header-button {
+    margin-right: 10px;
+}
+
+.home-three .header-button a {
+    padding: 11px 18px;
+    margin-left: 0;
+}
+
+.home-three .header-secrch-icon i {
+    width: 0;
+}
+
+.home-three .text-area-content h1 {
+    font-size: 40px;
+}
+
+.home-three .nav-link {
+    font-size: 15px;
+    padding: 12px 22px;
+}
+
+.home-three .single-about-item {
+    gap: 20px;
+}
+
+.home-three .about-list-item ul li {
+    font-size: 14px;
+}
+
+.home-three .single-service-box {
+    padding: 50px 9px 49px;
+}
+
+.home-three .services-content h4 {
+    font-size: 16px;
+}
+
+.home-three.project-area .container-fluid {
+    margin: 0 0 0 41px;
+}
+
+.home-three .blog-content {
+    padding: 37px 15px 39px;
+}
+
+.home-three .meta-blog span {
+    margin-right: 6px;
+}
+
+.home-three .blog-title a {
+    font-size: 19px;
+    line-height: 29px;
+}
+
+.home-three .subscribe-box input {
+    width: 62%;
+}
+
+/*===============Home Four Responsive Css============*/
+
+.home-four .header-menu {
+    text-align: right;
+    position: relative;
+    left: 85px;
+}
+
+.home-four .header-logo a {
+    padding: 18px 28px;
+}
+
+.home-four .header-menu ul li {
+    margin-right: 23px;
+}
+
+.home-four .hero-content h1 {
+    font-size: 65px;
+    line-height: 66px;
+}
+
+.home-four .about-thumb {
+    position: relative;
+    left: -72px;
+}
+
+.home-four .about-single-text-box {
+    width: 50%;
+}
+
+.home-four .about-text h4 {
+    font-size: 18px;
+}
+
+.home-four .about-item-box {
+    display: block;
+}
+
+.home-four .single-services-box {
+    padding: 35px 21px 45px;
+}
+
+.home-four .services-content h4 {
+    font-size: 22px;
+}
+
+.home-four .testi-thumb {
+    position: relative;
+    left: -43px;
+}
+
+.home-four p.testi-text {
+    width: 100%;
+}
+
+.home-four .info-shape {
+    top: 23px;
+}
+
+.home-four .blog-content {
+    padding: 27px 20px 21px;
+}
+
+.home-four .call-do-action-content h4 {
+    font-size: 31px;
+}
+
+
+
+
+
+
+/*===============Services Details Responsive Css============*/
+
+
+.service-details-icon-box {
+    padding: 32px 4px 18px;
+    gap: 13px;
+}
+
+.services-details-area .single-benifits-box {
+    margin-bottom: 40px;
+}
+
+.services-details-area .benifits-content {
+    padding: 30px 21px 23px;
+    width: 98%;
+}
+
+/*widget-sidber*/
+
+.widget-category ul li a {
+    padding: 14px 11px;
+}
+
+.widget-sidber-contact-box {
+    padding: 48px 27px 48px;
+}
+
+.widget-sidber-contact-btn  a {
+    padding: 16px 43px 15px;
+}
+
+/*===============Project Details Responsive Css============*/
+
+.project-details-list-item ul li {
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.project-details-list-item ul li i {
+    font-size: 16px;
+    margin-right: 7px;
+}
+
+/*===============Donation Details Responsive Css============*/
+.widget-sidber {
+    padding: 32px 15px 29px;
+}
+
+.recent-widget-content a {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.faqs-area.inner .faqs-thumb img {
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.blog-list-content {
+    border: 1px solid #2222;
+}
+
+a.blog-list-title {
+    font-size: 22px;
+}
+
+.blog-grid-area .blog-content a {
+    font-size: 17px;
+    line-height: 27px;
+}
+
+h4.blog-details-title {
+    font-size: 23px;
+}
+
+.blog-details-author-talk {
+    padding: 41px 30px 40px;
+}
+
+.blog-details-category span a {
+    margin-right: 2px;
+}
+
+.blog-post-box {
+    padding: 84px 21px 31px 20px;
+}
+
+.blog-post-box.style-two {
+    padding: 85px 26px 31px 21px;
+}
+
+.blog-post-content a {
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.blog-details-comment {
+    padding: 29px 11px 25px;
+}
+
+.blog-details-comment.style-two {
+    margin-left: 27px;
+}
+
+.contact-area {
+    padding: 123px 0 86px;
+}
+
+.row.pagla-shahin {
+    padding-top: 63px;
+}
+
+/*===============Home Five Responsive Css============*/
+.top-header-area {
+    display: none;
+}
+
+.home-five .header-button a {
+    padding: 12px 24px;
+}
+
+.home-five .hero-info {
+    display: none;
+}
+
+.home-five.video-area {
+    width: 44%;
+    left: 37px;
+}
+
+.hero-slide-five .owl-dots {
+    left: 40%;
+    width: 36%;
+    padding: 49px 103px;
+}
+
+.slider-counter {
+    left: 64%;
+}
+
+.slider-counter:before {
+  display: none;
+}
+
+.home-five .animal-link-icon a {
+    left: 49px;
+}
+
+.home-five .animal-content h4 {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.home-five .section-title.left h1 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.home-five .about-item-text h4 {
+    font-size: 14px;
+}
+
+.home-five .about-item-text img {
+    margin-right: 4px;
+}
+
+.home-five .about-shape {
+    display: none;
+}
+
+.home-five .about-thumb {
+    position: relative;
+    left: -45px;
+}
+
+.home-five .about-icon img {
+    width: 44%;
+}
+
+.home-five .nav-link {
+    padding: 24px 61px;
+}
+
+.home-five .event-titel h4 {
+    font-size: 20px;
+}
+
+.home-five .donation-right {
+    padding: 169px 26px 203px;
+}
+
+.home-five .section-title.left h1 {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.home-five .contact-info-title h1 {
+    font-size: 20px;
+}
+
+.home-five .contact-info-box:before {
+    left: -22px;
+}
+
+.home-five .contact-info-box:after {
+    right: 31px;;
+}
+
+.home-five .donation-list ul li {
+    margin-right: 2px;
+}
+
+.home-five .donation-right-content h1 {
+    font-size: 24px;
+}
+
+.home-five .blog-content {
+    padding: 27px 22px 41px;
+    width: 94%;
+}
+
+.home-five .blog-content a {
+    font-size: 16px;
+}
+
+.home-five .footer-contact-info {
+    gap: 11px;
+}
+
+.home-five .footer-contact-content h4 {
+    font-size: 14px;
+}
+
+.home-five .footer-widget-title h4 {
+    font-size: 20px;
+}
+
+.home-five .footer-widget-gallery a img {
+    width: 30%;
+}
+
+
+/*===============Home Six Responsive Css============*/
+
+.home-six.header-area .header-button a {
+    padding: 10px 26px;
+    margin-left: 6px;
+}
+
+.home-six.header-area .header-menu ul li {
+    margin-right: 13px;
+}
+
+.hero-area.home-six .hero-content h1 {
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.home-six .single-feature-box {
+    padding: 26px 21px 37px;
+}
+
+.home-six .feature-content h4 {
+    font-size: 16px;
+}
+
+.home-six .section-title.left h1 {
+    font-size: 35px;
+    line-height: 34px;
+}
+
+.home-six.about-area .about-thumb {
+    left: -43px;
+}
+
+.home-six .about-item-box {
+    display: block;
+}
+
+.home-six .about-list-item ul li {
+    font-size: 15px;
+}
+
+.home-six.service-area .row.upper {
+    margin-left: 55px;
+}
+
+.home-six .services-content h4 {
+    font-size: 19px;
+}
+
+.home-six .why-choose-thumb {
+    left: -459px;
+}
+
+.home-six .single-pricing-box {
+    padding: 42px 14px 53px;
+}
+
+.home-six .team-content h4 {
+    font-size: 18px;
+}
+
+.home-six.skill-area {
+    background-position: center left;
+}
+
+.home-six .skill-bar span {
+    left: 111px;
+}
+
+.home-six span.skill-count2 {
+    left: 83px !important;
+}
+
+.home-six span.skill-count3 {
+    left: 135px !important;
+}
+
+.home-six .blog-content a {
+    font-size: 16px;
+}
+
+.home-six .contact-left {
+    left: -69px;
+}
+
+.home-six .contact-content h4 {
+    font-size: 30px;
+    line-height: 26px;
+}
+
+.home-six .footer-widget-menu ul {
+    margin-right: 3px;
+}
+
+.footer-widget-blog-thumb img {
+    width: 90%;
+}
+
+.home-six .footer-widget-blog {
+    gap: 0px;
+}
+
+
+/*===============Home Seven Responsive Css============*/
+.home-seven .hero-content h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.home-seven .hero-img {
+    bottom: 95px;
+    left: 31%;
+}
+
+.services-title-area.home-seven .row.upper {
+    margin-left: 0;
+}
+
+.home-seven .project-content-two {
+    padding: 25px 24px 37px;
+    width: 83%;
+}
+
+.counter-area.home-seven {
+    padding-left: 19px;
+}
+
+.home-seven .counter-content-two h4 {
+    font-size: 100px;
+    bottom: -4px;
+    left: -4px;
+}
+
+.home-seven .testi-author-rating {
+    top: 71px;
+    right: 0px;
+}
+
+.home-seven .contact-left iframe {
+    width: 106%;
+}
+
+
+
+
+
+}
+
+
+/* Normal desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*Home 1 Resopnsive*/
+.top-header-area {
+    display: none;
+}
+
+.header-area {
+    display: none;
+}
+
+.sticky {
+    position: absolute !important;
+}
+
+.hero-area {
+    height: 750px;
+    padding-top: 44px;
+}
+
+.hero-social-icon {
+    display: none;
+}
+
+.hero-content p {
+    width: 70%;
+}
+
+.about-thumb {
+    left: 0;
+    padding-bottom: 36px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+img.about-thumb-shape {
+    bottom: -8px;
+    width: 58%;
+}
+
+.section-title.left h4 {
+    margin-bottom: 17px;
+}
+
+.section-title.left h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.about-shape-2 {
+    left: 248px;
+}
+
+.about-box-content p {
+    width: 74%;
+}
+
+.service-area {
+    padding: 113px 0 110px;
+}
+
+
+.skill-area {
+    padding: 112px 0 106px;
+}
+
+p.section-desc {
+    width: 96%;
+}
+
+.skills-item {
+    width: 49%;
+}
+
+.skills-item-title h4 {
+    font-size: 18px;
+}
+
+.skills-item-content {
+    gap: 12px;
+    padding: 18px 20px 18px 18px;
+}
+
+.skills-thumb {
+    left: 0;
+}
+
+.skills-thumb img {
+    width: 100%;
+    padding-top: 38px;
+}
+
+.skills-shape {
+    top: 36px;
+    left: 72px;
+}
+
+.counter-area {
+    padding: 80px 0 134px;
+    background-position: center center;
+}
+
+.single-counter-box {
+    margin-bottom: 37px;
+}
+
+#poress-row {
+    padding: 18px 7px 36px;
+}
+
+.porcess-thumb {
+    position: relative;
+    left: 0;
+    padding-bottom: 28px;
+}
+
+.porcess-thumb img {
+    width: 100%;
+}
+
+.project-area {
+    padding-left: 20px;
+}
+
+.project-area .owl-nav {
+    position: relative;
+    left: 252px;
+    top: 46px;
+}
+
+.project-content a {
+    font-size: 24px;
+}
+
+.single-process-box-two {
+    padding: 0 11px 0;
+}
+
+.single-process-box-two.style-three::before {
+    display: none;
+}
+
+.testi-shape {
+    left: -6%;
+}
+
+#brand-bg {
+    padding: 80px 0 61px;
+}
+
+.single-shape {
+    display: none;
+}
+
+.testimonial-area {
+    background-position: center;
+}
+
+.testi-shape-four {
+    top: 244px;
+    right: 1%;
+}
+
+.testi-shape-tow {
+    top: 235px;
+    left: 0%;
+}
+
+.blog-area .echofy-button {
+    margin-top: 0;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.blog-content {
+    padding: 27px 22px 28px;
+}
+
+.footer-social-icon {
+    text-align: left;
+    padding-top: 25px;
+}
+
+.footer-widget-content {
+    margin-bottom: 25px;
+}
+
+.footer-bottom-area {
+    padding: 74px 0 33px;
+}
+
+/*===============Home two Responsive Css============*/
+
+.hero-area.home-two {
+    height: 730px;
+    padding-top: 76px;
+}
+
+.home-two .hero-content h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.home-two p.about-desc {
+    width: 80%;
+}
+
+.home-two .about-thumb {
+    left: 0;
+}
+
+.home-two .about-video {
+    right: 61px;
+}
+
+.home-two .about-single-box {
+    gap: 30px;
+}
+
+.home-two .about-author-box {
+    gap: 15px;
+}
+
+.home-two .about-author-content h4 {
+    font-size: 16px;
+}
+
+.home-two .about-author-content p {
+    margin-top: 3px;
+}
+
+.home-two.service-title-area {
+    padding: 112px 0 233px;
+}
+
+.services-shape-one {
+    top: 11%;
+    left: 2%;
+}
+
+.services-shape-two {
+    top: 15%;
+    right: 8%;
+}
+
+.home-two .row.service-up {
+    margin-top: -339px;
+}
+
+.home-two .service-content {
+    padding: 64px 19px 23px;
+}
+
+.home-two .project-content {
+    width: 92%;
+    left: 14px;
+}
+
+.faq-singular .faq-question {
+    font-size: 17px;
+}
+
+.faqs-area p.section-desc {
+    width: 71%;
+}
+
+.faqs-area .echofy-button {
+    margin-bottom: 38px;
+}
+
+.donation-title-area {
+    padding: 109px 0 236px;
+}
+
+.donation-area .row.donate {
+    margin-top: -225px;
+}
+
+.donation-content {
+    padding: 26px 24px 23px;
+}
+
+.donation-content a {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.donation-shape-one {
+    top: 18%;
+    left: 0%;
+}
+
+.donation-shape-two {
+    top: 17%;
+    right: 3%;
+}
+
+.home-two.testimonial-area {
+    background-position: center right;
+    padding: 100px 0 100px;
+}
+
+.home-two.testimonial-area .testi-shape {
+    left: -13%;
+}
+
+.home-two.testimonial-area .single-testimonial-box {
+    padding: 34px 46px 32px;
+}
+
+.text-block {
+    font-size: 9vw;
+}
+
+.blog-content a {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.footer-social-address-content h4 {
+    font-size: 31px;
+}
+
+.home-two p.footer-desc {
+    width: 95%;
+}
+
+
+
+/*===============Home Three Responsive Css============*/
+
+.home-three.text-area {
+    padding: 179px 0 111px;
+}
+
+.home-three .text-area-content h1 {
+    font-size: 35px;
+}
+
+.home-three .text-area-content p {
+    width: 90%;
+}
+
+.home-three.hero-area {
+    height: 550px;
+    padding-top: 15px;
+}
+
+.home-three .hero-content h2 {
+    font-size: 32px;
+    letter-spacing: 10px;
+}
+
+.home-three .about-thumb {
+    left: 0;
+}
+
+.home-three .single-service-box {
+    margin-bottom: 20px;
+}
+
+.home-three.counter-area p.section-desc {
+    width: 76%;
+}
+
+.home-three .single-counter-box {
+    margin-top: 22px;
+}
+
+.home-three.project-area .section-title.left h1 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.home-three.project-area .container-fluid {
+    margin: 0 0 0 25px;
+}
+
+.home-three.skill-area {
+    background-position: center right;
+}
+
+.home-three .vedio-content {
+    display: none;
+}
+
+.home-three .faqs-thumb {
+    margin-top: 17px;
+}
+
+.home-three .blog-content {
+    padding: 37px 18px 39px;
+}
+
+.home-three .meta-blog span {
+    margin-right: 12px;
+}
+
+.home-three .blog-title a {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.home-three .subscribe-content p {
+    margin: 10px 0 33px;
+}
+
+.home-three .subscribe-box input {
+    width: 44%;
+}
+
+.home-three .subscribe-box button {
+    float: inherit;
+}
+
+.home-three .footer-widget-content {
+    margin-bottom: 48px;
+}
+
+.home-three .footer-bottom-area {
+    margin-top: 58px;
+}
+
+/*===============Home Four Responsive Css============*/
+
+.home-four.hero-area {
+    background-position: center right;
+     height: 769px;
+}
+
+.home-four .counter-thumb img {
+    margin-bottom: 24px;
+}
+
+.home-four .row.add-bg {
+    padding: 0 0 38px;
+}
+
+.home-four.about-area {
+    padding: 310px 0 108px;
+}
+
+.home-four .about-thumb {
+    left: 0;
+}
+
+.home-four .about-single-text-box {
+    right: -1px;
+    bottom: -17px;
+}
+
+.home-four .single-services-box {
+    padding: 35px 24px 45px;
+    margin-bottom: 20px;
+}
+
+.home-four .services-content h4 {
+    font-size: 22px;
+}
+
+.skill-thumb img {
+    width: 100%;
+}
+
+.home-four .info-content h4 {
+    font-size: 22px;
+}
+
+.home-four .info-content span {
+    margin: 6px 0 0;
+}
+
+.home-four .info-shape {
+    top: 23px;
+}
+
+.home-four .call-do-action-content h4 {
+    font-size: 34px;
+}
+
+/*===============Home Five Responsive Css============*/
+
+.home-five .hero-info {
+    display: none;
+}
+
+.home-five .hero-content p {
+    width: 70%;
+}
+
+.home-five.video-area {
+    width: 60%;
+    left: 0;
+}
+
+.hero-slide-five .owl-dots {
+    left: 49%;
+    width: 43%;
+}
+
+.slider-counter {
+    left: 83%;
+}
+.slider-counter:before{
+    display: none;
+}
+
+.home-five.animal-area {
+    padding: 187px 0 99px;
+}
+
+.home-five .single-animal-box {
+    margin-bottom: 24px;
+}
+
+.home-five .about-shape {
+    display: none;
+}
+
+.home-five .about-icon img {
+    width: 30%;
+}
+
+.home-five.about-area p.section-desc {
+    width: 88%;
+}
+
+.home-five p.about-desc {
+    width: 90%;
+}
+
+.home-five.gallery-area .style-four.echofy-button {
+    float: left;
+    margin-top: -16px;
+    margin-bottom: 58px;
+}
+
+.home-five .contact-info-title h4 {
+    font-size: 15px;
+}
+
+.home-five .contact-info-title h1 {
+    font-size: 18px;
+    margin-top: 13px;
+}
+
+.home-five.contact-info-area .contact-info-box {
+    padding-left: 0;
+    margin: 0;
+}
+
+.home-five.contact-info-area .echofy-button {
+    margin-top: 43px;
+}
+
+.home-five .nav-link {
+    padding: 17px 32px;
+}
+
+.home-five .event-titel h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.home-five .event-desc-box {
+    padding: 27px 51px 0 16px;
+}
+
+.home-five.donation-area .section-title.left h1 {
+    color: #fff;
+    font-size: 38px;
+}
+
+.home-five .donation-right {
+    padding: 119px 38px 137px;
+    margin-top: 30px;
+}
+
+.home-five.animal-video-area .section-title.left h1 {
+    line-height: 27px;
+    font-size: 24px;
+}
+
+.home-five.animal-video-area .echofy-button {
+    margin-top: -15px;
+}
+
+.home-five .blog-content {
+    padding: 27px 22px 41px;
+    width: 93%;
+}
+
+.home-five .blog-content a {
+    font-size: 20px;
+}
+
+.home-five .meta-blog span {
+    margin-right: 16px;
+}
+
+.home-five .footer-contact-info {
+    margin-top: 23px;
+}
+
+
+/*===============Home Six Responsive Css============*/
+
+.hero-area.home-six {
+    height: 830px;
+    padding-top: 23px;
+}
+
+.hero-area.home-six .hero-content h1 {
+    font-size: 45px;
+    line-height: 56px;
+}
+
+.home-six .single-feature-box {
+    padding: 26px 21px 37px;
+    margin-bottom: 23px;
+}
+
+.home-six.about-area {
+    padding: 81px 0 123px;
+}
+
+.home-six.service-area .row.upper {
+     top: -321px;
+    margin-left: -2px;
+}
+
+.home-six.why-choose-area {
+    padding: 375px 0 84px;
+}
+
+.home-six .why-choose-thumb {
+    left: 0;
+    margin-bottom: 43px;
+}
+
+.home-six .why-choose-thumb img{
+    width: 100%;
+}
+
+.home-six.why-choose-area p.section-desc {
+    width: 75%;
+}
+
+.home-six .choose-us-content p {
+    width: 76%;
+}
+
+.home-six .single-pricing-box {
+    padding: 42px 20px 53px;
+    margin-bottom: 22px;
+}
+
+.home-six.team-area {
+    padding: 122px 0 103px;
+}
+
+.home-six .single-team-box {
+    margin-bottom: 24px;
+}
+
+.home-six.skill-area {
+    background-position: center left;
+}
+
+.home-six.skill-area p.section-desc {
+    width: 73%;
+}
+
+.home-six.blog-area {
+    padding: 111px 0 94px;
+}
+
+.home-six .single-blog-box {
+    margin-bottom: 50px;
+}
+
+.home-six .blog-content a {
+    font-size: 18px;
+}
+
+.home-six .contact-left {
+    text-align: left;
+    left: 0;
+}
+
+.home-six .contact-icon {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.home-six .contact-title h4 {
+    margin-bottom: 50px;
+    margin-top: 42px;
+}
+
+.home-six.contact-area:before {
+    background: transparent;
+}
+
+.home-six .contact-submit-button button {
+    background: #ffff;
+    color: #49AE44;
+    border: 2px solid #fff
+}
+
+.home-six .footer-bottom-content ul li {
+    margin: 0 5px;
+}
+
+
+/*===============Home Seven Responsive Css============*/
+.hero-area.home-seven {
+    background-position: center left;
+}
+
+.home-seven .hero-content h1 {
+    font-size: 66px;
+    line-height: 66px;
+}
+
+.home-seven .hero-img {
+    bottom: 97px;
+    left: 42%;
+}
+
+.home-six.services-title-area p.section-desc {
+    margin: 2px 0 0;
+}
+
+.services-title-area.home-seven .row.upper {
+    margin-left: 0;
+}
+
+.home-seven .project-content-two {
+    padding: 25px 16px 37px;
+    width: 90%;
+}
+
+.home-seven .choose-shape {
+    top: 12px;
+    left: 41%;
+}
+
+.home-seven .counter-content-two h4 {
+    font-size: 100px;
+    bottom: -8px;
+    left: -42px;
+}
+
+.counter-area.home-seven {
+    padding-left: 100px;
+}
+
+.home-seven .vedio-content a {
+    top: 40px;
+}
+
+.home-seven .contact-left iframe {
+    width: 100%;
+    height: 360px;
+}
+
+.home-seven .contact-submit-button button {
+    background: #49AE44;
+    color: #fff;
+    margin-bottom: 128px;
+}
+
+
+
+
+/*===============All Inner Pages Responsive Css============*/
+.service-details-icon-box {
+    padding: 32px 17px 18px;
+    gap: 19px;
+}
+
+.services-details-area .single-benifits-box {
+    margin-bottom: 40px;
+}
+
+.project-details-right {
+    margin-bottom: 37px;
+}
+
+.donation-details-area button.submit-donation {
+    margin-bottom: 37px;
+}
+
+.faqs-area.inner .faqs-thumb {
+    margin-bottom: 32px;
+}
+
+a.blog-list-title {
+    font-size: 25px;
+}
+
+h4.blog-details-title {
+    font-size: 26px;
+}
+
+.blog-details-author-talk {
+    padding: 41px 36px 40px;
+}
+
+.blog-post-box {
+    padding: 84px 21px 31px 22px;
+    gap: 15px;
+}
+
+.blog-post-box.style-two {
+    padding: 85px 24px 31px 21px;
+}
+
+.blog-post-content a {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.row.contact-info-bg {
+    padding: 50px 30px 14px;
+}
+
+.contact-info-box {
+    margin-bottom: 35px;
+}
+
+
+
+
+
+}
+
+
+
+/* Normal desktop :600px. */
+@media (min-width: 600px) and (max-width: 767px) {
+
+
+/*Home 1 Resopnsive*/
+.top-header-area {
+    display: none;
+}
+
+.header-area {
+    display: none;
+}
+
+.sticky {
+    position: absolute !important;
+}
+
+.hero-area {
+    height: 750px;
+    padding-top: 57px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.hero-social-icon {
+    display: none;
+}
+
+.hero-content p {
+    width: 70%;
+}
+
+.hero-slides .owl-dots {
+    right: 27px;
+}
+
+.about-thumb {
+    left: 0;
+    padding-bottom: 36px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+img.about-thumb-shape {
+    bottom: -8px;
+    width: 58%;
+}
+
+.section-title.left h4 {
+    margin-bottom: 17px;
+}
+
+.section-title.left h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.about-shape-2 {
+    left: 248px;
+}
+
+.about-box-content p {
+    width: 74%;
+}
+
+.service-area {
+    padding: 113px 0 86px;
+}
+
+.single-service-box {
+    padding: 37px;
+}
+
+.service-box-shape {
+    right: 30px;
+    top: 29px;
+}
+
+.service-area .owl-next {
+    right: -33px;
+    top: -632px;
+}
+
+.service-area .owl-prev {
+    right: 30px;
+    top: -633px;
+}
+
+.skill-area {
+    padding: 112px 0 115px;
+}
+
+p.section-desc {
+    width: 96%;
+}
+
+.skills-item {
+    width: 49%;
+}
+
+.skills-item-title h4 {
+    font-size: 18px;
+}
+
+.skills-item-content {
+    gap: 12px;
+    padding: 18px 20px 18px 18px;
+}
+
+.skills-thumb {
+    left: 0;
+}
+
+.skills-thumb img {
+    width: 100%;
+    padding-top: 38px;
+}
+
+.skills-shape {
+    top: -2px;
+    left: 0;
+}
+
+.counter-area {
+    padding: 80px 0 134px;
+    background-position: center center;
+}
+
+.single-counter-box {
+    margin-bottom: 37px;
+}
+
+#poress-row {
+    padding: 18px 7px 36px;
+}
+
+.porcess-thumb {
+    position: relative;
+    left: 0;
+    padding-bottom: 28px;
+}
+
+.porcess-thumb img {
+    width: 100%;
+}
+
+.project-area {
+    padding-left: 20px;
+}
+
+.project-area .owl-nav {
+    position: relative;
+    left: 265px;
+    top: -159px;
+}
+
+.project-content a {
+    font-size: 24px;
+}
+
+.process-area-two .section-title.center {
+    margin-bottom: 37px;
+}
+
+.process-area-two .section-title.center h4 {
+    margin-bottom: 13px;
+}
+
+.process-area-two .section-title.center h1 {
+    font-size: 35px;
+}
+
+.single-process-box-two {
+    padding: 0 0 0;
+}
+
+.single-process-box-two::before {
+    display: none;
+}
+
+.single-process-box-two.style-three::before {
+    display: none;
+}
+
+.section-title.center h4 {
+    margin-bottom: 17px;
+}
+
+.section-title.center h1 {
+    font-size: 34px;
+    line-height: 35px;
+}
+
+.testimonial-area {
+    background-position: center;
+}
+
+.testi-shape-tow {
+    display: none;
+}
+
+.testi-shape-four {
+    display: none;
+}
+
+.testi-shape {
+    left: -6%;
+}
+
+#brand-bg {
+    padding: 64px 0 61px;
+}
+
+.brand-content h4 {
+    margin-bottom: 39px;
+}
+
+.single-shape {
+    display: none;
+}
+
+.team-area {
+    background-position: center;
+}
+
+.blog-area .echofy-button {
+    margin-top: 0;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.blog-content {
+    padding: 27px 29px 28px;
+}
+
+.blog-content a {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.footer-social-address {
+    padding: 49px 33px 55px;
+}
+
+.footer-social-icon {
+    text-align: left;
+    padding-top: 25px;
+}
+
+.footer-widget-content {
+    margin-bottom: 25px;
+}
+
+.footer-bottom-area {
+    padding: 74px 0 33px;
+}
+
+/*===============Home two Responsive Css============*/
+
+.hero-area.home-two {
+    height: 650px;
+    padding-top: 58px;
+}
+
+.home-two .hero-thumb {
+    display: none;
+}
+
+.home-two .hero-content h1 {
+    font-size: 48px;
+    line-height: 51px;
+}
+
+.home-two .hero-content p {
+    width: 94%;
+}
+
+.home-two .hero-shape {
+    display: none;
+}
+
+.home-two .about-thumb {
+    left: 0;
+}
+
+.home-two .about-video {
+    right: 46px;
+}
+
+.home-two .about-single-box {
+    gap: 30px;
+}
+
+.home-two .about-author-box {
+    gap: 15px;
+}
+
+.home-two .about-author-content h4 {
+    font-size: 16px;
+}
+
+.home-two .about-author-content p {
+    margin-top: 3px;
+}
+
+.home-two .row.service-up {
+    margin-top: -440px;
+}
+
+.home-two .service-content {
+    padding: 64px 19px 23px;
+}
+
+.home-two .services-shape-one {
+    top: 26%;
+    left: -1%;
+}
+
+.home-two .services-shape-two {
+    top: 26%;
+    right: 0%;
+}
+
+.home-two .row.fade-de {
+    padding: 85px 15px 55px;
+}
+
+.home-two.counter-area .section-title.left h1 {
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.home-two .single-counter-box {
+    gap: 12px;
+}
+
+.counter-content p {
+    font-size: 17px;
+    margin: -1px 0 0;
+}
+
+.home-two .project-content {
+    width: 60%;
+}
+
+.faq-singular .faq-question {
+    font-size: 17px;
+}
+
+.faqs-area p.section-desc {
+    width: 85%;
+}
+
+.faqs-area .echofy-button {
+    margin-bottom: 38px;
+}
+
+.donation-title-area {
+    padding: 109px 0 348px;
+}
+
+.donation-area .row.donate {
+    margin-top: -340px;
+}
+
+.donation-content {
+    padding: 26px 24px 23px;
+}
+
+.donation-content a {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.donation-shape-one {
+    top: 26%;
+    left: -1%;
+}
+
+.donation-shape-two {
+    top: 29%;
+    right: 1%;
+}
+
+.home-two.testimonial-area {
+    background-position: center right;
+}
+
+.home-two.testimonial-area .testi-shape {
+    top: -109px;
+    left: -23%;
+}
+
+.text-block {
+    font-size: 8vw;
+}
+
+.blog-content a {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.home-two.footer-area .echofy-button {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.footer-social-address-content h4 {
+    font-size: 31px;
+}
+
+.home-two p.footer-desc {
+    width: 95%;
+}
+
+.home-two .footer-widget-blog-content a {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/*===============Home Three Responsive Css============*/
+
+.home-three.text-area {
+    padding: 179px 0 111px;
+}
+
+.home-three .text-area-content h1 {
+    font-size: 28px;
+}
+
+.home-three .text-area-content p {
+    width: 90%;
+}
+
+.home-three.hero-area {
+    height: 550px;
+    padding-top: 15px;
+}
+
+.home-three .hero-content h2 {
+    font-size: 32px;
+    letter-spacing: 10px;
+}
+
+.home-three .about-thumb {
+    left: 0;
+}
+
+.home-three .about-desc p {
+    width: 97%;
+}
+
+.home-three .nav-link {
+    padding: 12px 24px;
+    margin-right: 11px;
+}
+
+.home-three .single-about-item {
+    gap: 7px;
+}
+
+.home-three.about-area .style-two.echofy-button a {
+    font-size: 15px;
+    padding: 12px 30px;
+}
+
+
+.home-three .single-service-box {
+    margin-bottom: 20px;
+}
+
+.home-three.counter-area p.section-desc {
+    width: 76%;
+}
+
+.home-three .single-counter-box {
+    margin-top: 22px;
+}
+
+.home-three.project-area .section-title.left {
+    margin-bottom: 34px;
+}
+
+.home-three.project-area .section-title.left h1 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.home-three.project-area .style-two.echofy-button {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+.home-three.project-area .container-fluid {
+    margin: 0 0 0 25px;
+}
+
+.home-three.skill-area {
+    background-position: center right;
+}
+
+.home-three .vedio-content {
+    display: none;
+}
+
+.home-three .faqs-thumb {
+    margin-top: 17px;
+    left: 0;
+}
+
+.faqs-thumb img {
+    width: 100%;
+}
+
+.home-three .blog-content {
+    padding: 37px 36px 39px;
+}
+
+.home-three .meta-blog span {
+    margin-right: 12px;
+}
+
+.home-three .blog-title a {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.home-three .subscribe-content p {
+    margin: 10px 0 33px;
+}
+
+.home-three .blog-content {
+    padding: 37px 36px 39px;
+}
+
+.home-three .subscribe-box button {
+    float: inherit;
+}
+
+.home-three .footer-widget-content {
+    margin-bottom: 48px;
+}
+
+.home-three .footer-bottom-area {
+    margin-top: 58px;
+}
+
+/*===============Home Four Responsive Css============*/
+
+.home-four.hero-area {
+    background-position: center right;
+     height: 769px;
+}
+
+.home-four .hero-content h1 {
+    font-size: 60px;
+    line-height: 62px;
+}
+
+.home-four .counter-thumb img {
+    margin-bottom: 24px;
+}
+
+.home-four .single-conter-box {
+    margin-top: 36px;
+}
+
+.home-four .row.add-bg {
+    padding: 0 0 38px;
+}
+
+.home-four.about-area {
+    padding: 310px 0 114px;
+}
+
+.home-four .about-thumb {
+    left: 0;
+}
+
+.home-four .about-single-text-box {
+    right: -1px;
+    bottom: -17px;
+    width: 50%;
+}
+
+.home-four .single-services-box {
+    padding: 35px 24px 45px;
+    margin-bottom: 20px;
+}
+
+.home-four .services-content h4 {
+    font-size: 22px;
+}
+
+.skill-thumb img {
+    width: 100%;
+}
+
+.home-four p.testi-text {
+    width: 85%;
+}
+
+.home-four .info-thumb img {
+   left: 0;
+}
+
+.home-four .info-content {
+    margin-left: 0;
+    padding: 22px 25px 30px;
+}
+
+.home-four .info-content h4 {
+    font-size: 22px;
+}
+
+.home-four .info-content span {
+    margin: 6px 0 0;
+}
+
+.home-four .info-shape {
+    top: 71px;
+    right: 42%;
+}
+.home-four .call-do-action-content h4 {
+    font-size: 34px;
+}
+
+.home-four.call-do-action-area .style-three.echofy-button {
+    float: left;
+    margin-top: 35px;
+}
+
+.col-lg-9.col-md-9.menu {
+    position: relative;
+    left: -99px;
+    padding-top: 32px;
+}
+
+
+
+/*===============Home Five Responsive Css============*/
+
+.home-five .hero-info {
+    display: none;
+}
+
+.home-five .hero-content h1 {
+    font-size: 45px;
+    line-height: 46px;
+}
+
+.home-five .hero-content p {
+    width: 88%;
+}
+
+.home-five.video-area {
+    width: 60%;
+    left: 0;
+}
+
+.hero-slide-five .owl-dots {
+    left: 52%;
+    width: 48%;
+    padding: 49px 48px;
+}
+
+.slider-counter {
+    left: 83%;
+}
+.slider-counter:before{
+    display: none;
+}
+
+.home-five.animal-area {
+    padding: 187px 0 99px;
+}
+
+.home-five .single-animal-box {
+    margin-bottom: 24px;
+}
+
+.home-five .single-animal-box.active .animal-link-icon a {
+    top: 42%;
+    left: 107px;
+}
+
+.home-five .section-title.left h1 {
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.home-five .about-shape {
+    display: none;
+}
+
+.home-five .about-icon img {
+    width: 30%;
+}
+
+.home-five.about-area p.section-desc {
+    width: 88%;
+}
+
+.home-five .about-item-text h4 {
+    font-size: 14px;
+}
+
+.home-five p.about-desc {
+    width: 90%;
+}
+
+.home-five.gallery-area .style-four.echofy-button {
+    float: left;
+    margin-top: -16px;
+    margin-bottom: 58px;
+}
+
+.home-five .contact-info-title h4 {
+    font-size: 15px;
+}
+
+.home-five .contact-info-title h1 {
+    font-size: 18px;
+    margin-top: 13px;
+}
+
+.home-five.contact-info-area .contact-info-box {
+    padding-left: 0;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.home-five.contact-info-area .echofy-button {
+    margin-top: 43px;
+}
+
+.home-five .nav-link {
+    padding: 17px 26px;
+}
+
+.home-five .event-titel h4 {
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.home-five .single-event:hover {
+    height: 476px;
+}
+
+.home-five .event-desc-box {
+    padding: 27px 51px 0 16px;
+}
+
+.home-five.donation-area .section-title.left h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.home-five .single-donation-box {
+    padding: 100px 36px 112px;
+}
+
+.home-five .donation-list ul li {
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.home-five .donation-right {
+    padding: 119px 38px 137px;
+    margin-top: 30px;
+}
+
+.home-five.animal-video-area .section-title.left h1 {
+    line-height: 27px;
+    font-size: 24px;
+}
+
+.home-five .animal-video-button {
+    float: left;
+    margin-top: 45px;
+}
+
+.home-five.animal-video-area .echofy-button {
+    margin-top: -15px;
+}
+
+.home-five .blog-content {
+    padding: 27px 22px 41px;
+    width: 93%;
+}
+
+.home-five .blog-content a {
+    font-size: 20px;
+}
+
+.home-five .meta-blog span {
+    margin-right: 16px;
+}
+
+.home-five .footer-contact-info {
+    margin-top: 23px;
+}
+
+.home-five .footer-widget-gallery a img {
+    margin: 5px -1px;
+}
+
+.footer-bottom-content {
+    float: left;
+    margin-top: 8px;
+}
+
+.home-five .footer-bottom-content ul li {
+    margin: 0 5px;
+}
+
+/*===============Home Six Responsive Css============*/
+
+.hero-area.home-six {
+    height: 700px;
+    padding-top: 23px;
+}
+
+.hero-area.home-six .hero-content h1 {
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.home-six .single-feature-box {
+    padding: 26px 21px 37px;
+    margin-bottom: 23px;
+}
+
+.home-six .section-title.left h1 {
+    font-size: 36px;
+    line-height: 31px;
+}
+
+.home-six .section-title.center h1 {
+    font-size: 38px;
+    line-height: 35px;
+}
+
+.home-six.about-area {
+    padding: 81px 0 123px;
+}
+
+.home-six .about-item-box {
+    display: block;
+}
+
+.home-six.service-area .row.upper {
+     top: -321px;
+    margin-left: -2px;
+}
+
+.home-six.why-choose-area {
+    padding: 375px 0 84px;
+}
+
+.home-six .why-choose-thumb {
+    left: 0;
+    margin-bottom: 43px;
+}
+
+.home-six .why-choose-thumb img{
+    width: 100%;
+}
+
+.home-six.why-choose-area p.section-desc {
+    width: 75%;
+}
+
+.home-six .choose-us-content p {
+    width: 76%;
+}
+
+.home-six .single-pricing-box {
+    padding: 42px 40px 53px;
+    margin-bottom: 22px;
+}
+
+.home-six.pricing-area .single-pricing-box .echofy-button {
+    text-align: left;
+}
+
+.home-six.team-area {
+    padding: 122px 0 103px;
+}
+
+.home-six .single-team-box {
+    margin-bottom: 24px;
+}
+
+.home-six.skill-area {
+    background-position: center left;
+}
+
+.home-six.skill-area p.section-desc {
+    width: 73%;
+}
+
+.home-six.blog-area {
+    padding: 111px 0 94px;
+}
+
+.home-six .single-blog-box {
+    margin-bottom: 50px;
+}
+
+.home-six .blog-content a {
+    font-size: 18px;
+}
+
+.home-six .contact-content h4 {
+    font-size: 36px;
+    line-height: 38px;
+}
+
+.home-six .contact-left {
+    text-align: left;
+    left: 0;
+}
+
+.home-six .contact-icon {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.home-six .contact-title h4 {
+    margin-bottom: 50px;
+    margin-top: 42px;
+}
+
+.home-six.contact-area:before {
+    background: transparent;
+}
+
+.home-six .contact-submit-button button {
+    background: #ffff;
+    color: #49AE44;
+    border: 2px solid #fff
+}
+
+.home-six .footer-social-icon {
+    margin-bottom: 34px;
+}
+
+.home-six .footer-bottom-content ul li {
+    margin: 0 5px;
+}
+
+/*===============Home Seven Responsive Css============*/
+.hero-area.home-seven {
+    background-position: center left;
+     height: 733px;
+    padding-top: 82px;
+}
+
+.home-seven .hero-content h1 {
+    font-size: 56px;
+    line-height: 56px;
+}
+
+.home-seven .hero-img {
+    bottom: 124px;
+    left: 52%;
+}
+
+.home-six.services-title-area p.section-desc {
+    margin: 2px 0 0;
+}
+
+.services-title-area.home-seven .row.upper {
+    margin-left: 0;
+}
+
+.home-seven .project-content-two {
+    padding: 25px 16px 37px;
+    width: 90%;
+}
+
+.home-seven .choose-shape {
+    top: 12px;
+    left: 41%;
+}
+
+.home-seven .counter-content-two h4 {
+    font-size: 100px;
+    bottom: -8px;
+    left: -42px;
+}
+
+.counter-area.home-seven {
+    padding-left: 100px;
+}
+
+.home-seven .testi-author-rating {
+    right: 17px;
+}
+
+.home-seven.faqs-area .section-title.left h1 {
+    font-size: 36px;
+    line-height: 35px;
+}
+
+.home-seven .vedio-content a {
+    top: 40px;
+}
+
+.home-seven .contact-left iframe {
+    width: 100%;
+    height: 360px;
+}
+
+.home-seven .contact-submit-button button {
+    background: #49AE44;
+    color: #fff;
+    margin-bottom: 128px;
+}
+
+
+
+
+
+
+/*===============All Inner Pages Responsive Css============*/
+.breadcumb-area {
+    padding: 211px 0 143px;
+}
+
+.breadcumb-title h4 {
+    font-size: 38px;
+}
+
+h4.services-details-title {
+    font-size: 28px;
+}
+
+.service-details-icon-box {
+    padding: 32px 17px 18px;
+    gap: 19px;
+}
+
+.services-details-area .single-benifits-box {
+    margin-bottom: 40px;
+}
+
+.project-details-content h4 {
+    font-size: 32px;
+}
+
+.project-details-right {
+    margin-bottom: 37px;
+}
+
+h4.dontaion-detais-title {
+    font-size: 27px;
+    margin: 40px 0 24px;
+}
+
+.donation-details-area button.submit-donation {
+    margin-bottom: 44px;
+}
+
+.faqs-area.inner .faqs-thumb {
+    margin-bottom: 32px;
+}
+
+.blog-list-content {
+    padding: 27px 24px 20px;
+}
+
+.blog-list-area .meta-blog span {
+    margin-right: 20px;
+}
+
+a.blog-list-title {
+    font-size: 18px;
+}
+
+.blog-details-content {
+    padding: 27px 22px 20px;
+}
+
+h4.blog-details-title {
+    font-size: 20px;
+}
+
+.blog-details-author-talk {
+    padding: 41px 36px 40px;
+}
+
+.blog-details-author-title p {
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.blog-post-box {
+    padding: 84px 21px 31px 22px;
+    gap: 15px;
+}
+
+.blog-post-box.style-two {
+    padding: 85px 24px 31px 21px;
+}
+
+.blog-post-content a {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.blog-details-thumb.two {
+    margin-bottom: 20px;
+}
+
+.blog-details-social-icon {
+    text-align: left;
+    padding-top: 25px;
+}
+
+.blog-details-comment-thumb {
+    float: left;
+    margin-right: 10px;
+}
+
+.blog-details-comment {
+    padding: 29px 6px 25px;
+}
+
+.blog-details-comment-content h2 {
+    margin-right: 8px;
+}
+
+.blog-details-comment.style-two {
+    margin-left: 0px;
+}
+
+.blog-details-comment-reply {
+    right: -10px;
+}
+
+.row.contact-info-bg {
+    padding: 50px 30px 14px;
+}
+
+.contact-info-box {
+    margin-bottom: 35px;
+}
+
+
+
+
+}
+
+/* Normal desktop :480px. */
+@media (min-width: 480px) and (max-width: 599px) {
+
+/*Home 1 Resopnsive*/
+.top-header-area {
+   display: none;
+}
+
+.header-area {
+    display: none;
+}
+
+.sticky {
+    position: absolute !important;
+}
+
+.hero-area {
+    height: 662px;
+    padding-top: 57px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.hero-social-icon {
+    display: none;
+}
+
+.hero-content p {
+    width: 73%;
+}
+
+.hero-slides .owl-dots {
+    right: 27px;
+}
+
+.about-thumb {
+    left: 0;
+    padding-bottom: 36px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+img.about-thumb-shape {
+    bottom: -8px;
+}
+
+.section-title.left h4 {
+    margin-bottom: 9px;
+}
+
+.section-title.left h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.about-shape-2 {
+    left: 248px;
+}
+
+.service-area {
+    padding: 113px 0 114px;
+}
+
+.service-area .owl-next {
+    right: 0px;
+    top: -623px;
+}
+
+.service-area .owl-prev {
+    right: 64px;
+    top: -623px;
+}
+
+.skill-area {
+    padding: 112px 0 115px;
+}
+
+p.section-desc {
+    width: 96%;
+}
+
+.skills-item-title h4 {
+    font-size: 18px;
+}
+
+.skills-item-content {
+    gap: 12px;
+    padding: 18px 50px 18px 26px;
+}
+
+.skills-thumb {
+    left: 0;
+}
+
+.skills-thumb img {
+    width: 100%;
+    padding-top: 38px;
+}
+
+.skills-shape {
+    top: -2px;
+    left: 0;
+}
+
+.counter-area {
+    padding: 80px 0 134px;
+    background-position: center center;
+}
+
+.single-counter-box {
+    margin-bottom: 37px;
+}
+
+#poress-row {
+    padding: 18px 7px 36px;
+}
+
+.porcess-thumb {
+    position: relative;
+    left: 0;
+    padding-bottom: 28px;
+}
+
+.porcess-thumb img {
+    width: 100%;
+}
+
+.project-area {
+    padding-left: 20px;
+}
+
+.project-area .owl-nav {
+    display: none;
+}
+
+.project-content a {
+    font-size: 24px;
+}
+
+a.project-button {
+    margin-top: 9px;
+}
+
+.process-area-two .section-title.center {
+    margin-bottom: 37px;
+}
+
+.process-area-two .section-title.center h4 {
+    margin-bottom: 13px;
+}
+
+.process-area-two .section-title.center h1 {
+    font-size: 35px;
+}
+
+.single-process-box-two {
+    padding: 0 65px 0;
+}
+
+.single-process-box-two::before {
+    display: none;
+}
+
+.single-process-box-two.style-three::before {
+    display: none;
+}
+
+.section-title.center h4 {
+    margin-bottom: 17px;
+}
+
+.section-title.center h1 {
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.testimonial-area {
+    background-position: center;
+}
+
+.testi-shape-tow {
+    display: none;
+}
+
+.testi-shape-four {
+    display: none;
+}
+
+.single-testimonial-box {
+    padding: 34px 25px 32px;
+}
+
+.testi-shape {
+    left: -35%;
+}
+
+#brand-bg {
+    padding: 64px 0 61px;
+}
+
+.brand-content h4 {
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+
+.single-shape {
+    display: none;
+}
+
+.team-area {
+    background-position: center;
+}
+
+.blog-area .echofy-button {
+    margin-top: 0;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.blog-content {
+    padding: 27px 29px 28px;
+}
+
+.blog-content a {
+    font-size: 19px;
+    line-height: 26px;
+}
+
+.footer-social-address {
+    padding: 49px 33px 55px;
+}
+
+.footer-social-address-content h4 {
+    font-size: 35px;
+}
+
+.footer-social-icon {
+    text-align: left;
+    padding-top: 25px;
+}
+
+p.footer-desc {
+    width: 67%;
+}
+
+.footer-widget-content {
+    margin-bottom: 25px;
+}
+
+.footer-bottom-area {
+    padding: 74px 0 33px;
+}
+
+/*===============Home two Responsive Css============*/
+
+.hero-area.home-two {
+    height: 650px;
+    padding-top: 58px;
+}
+
+.home-two .hero-thumb {
+    display: none;
+}
+
+.home-two .hero-content h1 {
+    font-size: 48px;
+    line-height: 51px;
+}
+
+.home-two .hero-content p {
+    width: 94%;
+}
+
+.home-two .hero-shape {
+    display: none;
+}
+
+.home-two .about-thumb {
+    left: 0;
+}
+
+.home-two .about-video {
+    right: 14px;
+}
+
+.home-two .about-single-box {
+    gap: 30px;
+}
+
+.home-two .about-author-box {
+    gap: 15px;
+}
+
+.home-two .about-author-content h4 {
+    font-size: 16px;
+}
+
+.home-two .about-author-content p {
+    margin-top: 3px;
+}
+
+.home-two .row.service-up {
+    margin-top: -409px;
+}
+
+.home-two .service-content {
+    padding: 64px 19px 23px;
+}
+
+.services-shape-one {
+   display: none;
+}
+
+.services-shape-two {
+  display: none;
+}
+
+.home-two .row.fade-de {
+    padding: 85px 15px 55px;
+}
+
+.home-two.counter-area .section-title.left h1 {
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.home-two .single-counter-box {
+    gap: 12px;
+}
+
+.counter-content p {
+    font-size: 18px;
+    margin: -1px 0 0;
+}
+
+.home-two .project-content {
+    width: 76%;
+}
+
+.faq-singular .faq-question {
+    font-size: 14px;
+}
+
+.faqs-area p.section-desc {
+    width: 94%;
+}
+
+.faqs-area .echofy-button {
+    margin-bottom: 38px;
+}
+
+.donation-title-area {
+    padding: 109px 0 305px;
+}
+
+.donation-area .row.donate {
+    margin-top: -298px;
+}
+
+.donation-content {
+    padding: 26px 24px 23px;
+}
+
+.donation-content a {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.donation-shape-one {
+   display: none;
+}
+
+.donation-shape-two {
+  display: none;
+}
+
+.home-two.testimonial-area {
+    background-position: center right;
+}
+
+.home-two.testimonial-area .testi-shape {
+    top: -115px;
+    left: -77px;
+}
+
+.text-block {
+    font-size: 8vw;
+}
+
+.blog-content a {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.footer-social-address-content h4 {
+    font-size: 27px;
+}
+
+.home-two.footer-area .echofy-button {
+    margin-top: 33px;
+    text-align: left;
+}
+
+.home-two p.footer-desc {
+    width: 95%;
+}
+
+.home-two .footer-widget-blog-content a {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/*===============Home Three Responsive Css============*/
+
+.home-three.text-area {
+    padding: 179px 0 111px;
+}
+
+.home-three .text-area-content h1 {
+    font-size: 23px;
+}
+
+.home-three .text-area-content p {
+    width: 90%;
+}
+
+.home-three.hero-area {
+    height: 550px;
+    padding-top: 15px;
+}
+
+.home-three .hero-content h2 {
+    font-size: 32px;
+    letter-spacing: 10px;
+}
+
+.home-three .about-thumb {
+    left: 0;
+}
+
+.home-three .about-desc p {
+    width: 97%;
+}
+
+.home-three .nav-link {
+    padding: 12px 15px;
+    margin-right: 8px;
+}
+
+.home-three .single-about-item {
+    display: block;
+}
+
+.about-img {
+    margin-top: 26px;
+}
+
+.home-three.about-area .style-two.echofy-button a {
+    font-size: 15px;
+    padding: 12px 30px;
+}
+
+
+.home-three .single-service-box {
+    margin-bottom: 20px;
+}
+
+.home-three.counter-area p.section-desc {
+    width: 76%;
+}
+
+.home-three .single-counter-box {
+    margin-top: 22px;
+}
+
+.home-three.project-area .section-title.left {
+    margin-bottom: 34px;
+}
+
+.home-three.project-area .section-title.left h1 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.home-three.project-area .style-two.echofy-button {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+.home-three.project-area .container-fluid {
+    margin: 0 0 0 10px;
+}
+
+.home-three.skill-area {
+    background-position: center right;
+}
+
+.home-three .vedio-content {
+    display: none;
+}
+
+.home-three .faqs-thumb {
+    margin-top: 17px;
+    left: 0;
+}
+
+.faqs-thumb img {
+    width: 100%;
+}
+
+.home-three .blog-content {
+    padding: 37px 36px 39px;
+}
+
+.home-three .meta-blog span {
+    margin-right: 12px;
+}
+
+.home-three .blog-title a {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.home-three .subscribe-content p {
+    margin: 10px 0 33px;
+}
+
+.home-three .blog-content {
+    padding: 37px 36px 39px;
+}
+
+.home-three .subscribe-box input {
+    width: 59%;
+}
+
+.home-three .subscribe-box button {
+    float: inherit;
+}
+
+.home-three .footer-widget-content {
+    margin-bottom: 48px;
+}
+
+.home-three .footer-bottom-area {
+    margin-top: 58px;
+}
+
+/*===============Home Four Responsive Css============*/
+.home-four.hero-area {
+    background-position: center right;
+    height: 748px;
+}
+
+.home-four .hero-content h1 {
+    font-size: 56px;
+    line-height: 56px;
+}
+
+.home-four .single-conter-box {
+    margin-top: 36px;
+}
+
+.home-four .about-single-text-box {
+    right: -13px;
+    bottom: 16px;
+    width: 65%;
+}
+
+.home-four .about-item-box {
+    display: block;
+}
+
+.skill-thumb img {
+    width: 100%;
+}
+
+.home-four .testi-thumb {
+    left: 0;
+}
+
+.home-four p.testi-text {
+    width: 100%;
+}
+
+.home-four .info-content {
+    margin-left: 0;
+    padding: 32px 15px 28px;
+}
+
+.home-four .call-do-action-content h4 {
+    font-size: 36px;
+}
+
+.home-four .info-shape {
+    right: 41%;
+    top: 45px;
+}
+
+.home-four.call-do-action-area .style-three.echofy-button {
+    float: left;
+    margin-top: 39px;
+}
+
+.home-four .footer-widget-menu-list ul li {
+    display: inline-block;
+    float: left;
+    margin-left: 18px;
+    margin-top: 35px;
+}
+
+
+
+/*===============Home Five Responsive Css============*/
+
+.home-five.hero-area {
+    padding-top: 79px;
+    padding-bottom: 154px;
+    height: 865px;
+}
+
+.home-five .hero-info {
+    display: none;
+}
+
+.home-five .hero-content h1 {
+    font-size: 45px;
+    line-height: 46px;
+}
+
+.home-five .hero-content p {
+    width: 88%;
+}
+
+.home-five.video-area {
+    width: 99%;
+    left: 0;
+    margin-top: -142px;
+}
+
+.hero-slide-five .owl-dots {
+   display: none;
+}
+
+.slider-counter {
+    display: none;
+}
+.slider-counter:before{
+    display: none;
+}
+
+.home-five.animal-area {
+    padding: 187px 0 99px;
+}
+
+.home-five .single-animal-box {
+    margin-bottom: 24px;
+}
+
+.home-five .single-animal-box.active .animal-link-icon a {
+    top: 43%;
+    left: 45%;
+}
+
+.home-five .single-about-box {
+    right: 0px;
+}
+
+.home-five .section-title.left h1 {
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.home-five .about-shape {
+    display: none;
+}
+
+.home-five .about-icon img {
+    width: 30%;
+}
+
+.home-five.about-area p.section-desc {
+    width: 88%;
+}
+
+.home-five .about-item-text h4 {
+    font-size: 14px;
+}
+
+.home-five p.about-desc {
+    width: 90%;
+}
+
+.home-five.gallery-area .style-four.echofy-button {
+    float: left;
+    margin-top: -16px;
+    margin-bottom: 58px;
+}
+
+.home-five .contact-info-title h4 {
+    font-size: 15px;
+}
+
+.home-five .contact-info-title h1 {
+    font-size: 18px;
+    margin-top: 13px;
+}
+
+.home-five.contact-info-area .contact-info-box {
+    padding-left: 0;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.home-five.contact-info-area .echofy-button {
+    margin-top: 43px;
+}
+
+.home-five .nav-link {
+    padding: 17px 48px;
+}
+
+.home-five .single-event-box {
+    display: block;
+    padding: 12px 17px;
+}
+
+.home-five .event-titel h4 {
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.home-five .single-event:hover {
+    height: 714px;
+}
+
+.home-five .event-desc-box {
+    padding: 27px 51px 0 16px;
+}
+
+.home-five.donation-area .section-title.left h1 {
+    color: #fff;
+    font-size: 26px;
+}
+
+.home-five .donation-list ul li a {
+    padding: 7px 10px;
+}
+
+.home-five .single-donation-box {
+    padding: 100px 36px 112px;
+}
+
+.home-five .donation-list ul li {
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.home-five .donation-right {
+    padding: 119px 38px 137px;
+    margin-top: 30px;
+}
+
+.home-five.animal-video-area .section-title.left h1 {
+    line-height: 27px;
+    font-size: 24px;
+}
+
+.home-five .animal-video-button {
+    float: left;
+    margin-top: 45px;
+}
+
+.home-five.animal-video-area .echofy-button {
+    margin-top: -15px;
+}
+
+.home-five .blog-content {
+    padding: 27px 22px 41px;
+    width: 93%;
+}
+
+.home-five .blog-content a {
+    font-size: 20px;
+}
+
+.home-five .meta-blog span {
+    margin-right: 16px;
+}
+
+.home-five .footer-contact-info {
+    margin-top: 23px;
+}
+
+.home-five .footer-widget-gallery a img {
+    margin: 5px -1px;
+}
+
+.footer-bottom-content {
+    float: left;
+    margin-top: 8px;
+}
+
+.home-five .footer-bottom-content ul li {
+    margin: 0 5px;
+}
+
+
+/*===============Home Six Responsive Css============*/
+
+.hero-area.home-six {
+    height: 700px;
+    padding-top: 23px;
+}
+
+.home-six .hero-content h4 {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.hero-area.home-six .hero-content h1 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.home-six .single-feature-box {
+    padding: 26px 21px 37px;
+    margin-bottom: 23px;
+}
+
+.home-six .section-title.left h1 {
+    font-size: 36px;
+    line-height: 31px;
+}
+
+.home-six .section-title.center h1 {
+    font-size: 30px;
+    line-height: 33px;
+}
+
+.home-six.about-area {
+    padding: 81px 0 123px;
+}
+
+.home-six .about-item-box {
+    display: block;
+}
+
+.home-six.service-area .row.upper {
+     top: -321px;
+    margin-left: -2px;
+}
+
+.home-six.why-choose-area {
+    padding: 375px 0 84px;
+}
+
+.home-six .why-choose-thumb {
+    left: 0;
+    margin-bottom: 43px;
+}
+
+.home-six .why-choose-thumb img{
+    width: 100%;
+}
+
+.home-six.why-choose-area p.section-desc {
+    width: 75%;
+}
+
+.home-six .choose-us-content p {
+    width: 100%;
+}
+
+.home-six .single-pricing-box {
+    padding: 42px 40px 53px;
+    margin-bottom: 22px;
+}
+
+.home-six.pricing-area .single-pricing-box .echofy-button {
+    text-align: left;
+}
+
+.home-six.team-area {
+    padding: 122px 0 103px;
+}
+
+.home-six .single-team-box {
+    margin-bottom: 24px;
+}
+
+.home-six.skill-area {
+    background-position: center left;
+}
+
+.home-six .skill-bar span {
+    left: 99px;
+}
+
+.home-six span.skill-count2 {
+    left: 71px !important;
+}
+
+.home-six span.skill-count3 {
+    left: 121px !important;
+}
+
+.home-six.skill-area p.section-desc {
+    width: 73%;
+}
+
+.home-six.blog-area {
+    padding: 111px 0 94px;
+}
+
+.home-six .single-blog-box {
+    margin-bottom: 50px;
+}
+
+.home-six .blog-content a {
+    font-size: 18px;
+}
+
+.home-six .contact-content h4 {
+    font-size: 36px;
+    line-height: 38px;
+}
+
+.home-six .contact-left {
+    text-align: left;
+    left: 0;
+}
+
+.home-six .contact-icon {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.home-six .contact-title h4 {
+    margin-bottom: 50px;
+    margin-top: 42px;
+}
+
+.home-six.contact-area:before {
+    background: transparent;
+}
+
+.home-six .contact-submit-button button {
+    background: #ffff;
+    color: #49AE44;
+    border: 2px solid #fff
+}
+
+.home-six .footer-social-icon {
+    margin-bottom: 34px;
+}
+
+.home-six .footer-bottom-content ul li {
+    margin: 0 5px;
+}
+
+
+/*===============Home Seven Responsive Css============*/
+.hero-area.home-seven {
+    background-position: center left;
+     height: 733px;
+    padding-top: 82px;
+}
+
+.home-seven .hero-content h1 {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.home-seven .hero-content p {
+    width: 90%;
+}
+
+.home-seven .hero-img {
+    display: none;
+}
+
+.home-six.services-title-area p.section-desc {
+    margin: 2px 0 0;
+}
+
+.services-title-area.home-seven .row.upper {
+    margin-left: 0;
+}
+
+.home-seven .project-content-two {
+    padding: 25px 16px 37px;
+    width: 90%;
+}
+
+.home-seven .choose-shape {
+    top: 12px;
+    left: 41%;
+}
+
+.home-seven .counter-content-two h4 {
+    font-size: 100px;
+    bottom: -8px;
+    left: -42px;
+}
+
+.counter-area.home-seven {
+    padding-left: 100px;
+}
+
+.home-seven .testi-author-rating {
+    right: 8px;
+    top: 99px;
+}
+
+.home-seven.faqs-area .section-title.left h1 {
+    font-size: 36px;
+    line-height: 35px;
+}
+
+.home-seven .vedio-content a {
+    top: 40px;
+}
+
+.home-seven .contact-left iframe {
+    width: 100%;
+    height: 360px;
+}
+
+.home-seven .contact-submit-button button {
+    background: #49AE44;
+    color: #fff;
+    margin-bottom: 128px;
+}
+
+
+
+
+
+
+
+/*===============All Inner Pages Responsive Css============*/
+.breadcumb-area {
+    padding: 227px 0 143px;
+}
+
+.breadcumb-title h4 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+h4.services-details-title {
+    font-size: 25px;
+}
+
+.service-details-icon-box {
+    padding: 32px 17px 18px;
+    gap: 19px;
+}
+
+.services-details-area .single-benifits-box {
+    margin-bottom: 40px;
+}
+
+.service-details-text-content p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.project-details-content h4 {
+    font-size: 28px;
+}
+
+.project-details-right {
+    margin-bottom: 37px;
+}
+
+.project-details-content h4 {
+    font-size: 32px;
+}
+
+.project-details-right {
+    margin-bottom: 37px;
+}
+
+h4.dontaion-detais-title {
+    font-size: 22px;
+}
+
+.donation-details-area button.submit-donation {
+    margin-bottom: 44px;
+}
+
+.faqs-area.inner .faqs-thumb {
+    margin-bottom: 32px;
+}
+
+.blog-list-content {
+    padding: 27px 13px 20px;
+}
+
+.blog-list-area .meta-blog span {
+    margin-right: 4px;
+}
+
+a.blog-list-title {
+    font-size: 18px;
+}
+
+.blog-details-content {
+    padding: 27px 22px 20px;
+}
+
+.blog-details-area span.mate-text {
+    padding-left: 27px;
+}
+
+.blog-details-area .meta-blog span {
+    margin-right: 6px;
+}
+
+h4.blog-details-title {
+    font-size: 18px;
+}
+
+.blog-details-author-talk {
+    display: block;
+}
+
+.blog-details-quote {
+    margin-bottom: 30px;
+}
+
+.blog-details-author-title p {
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.blog-post-box {
+    padding: 84px 21px 31px 22px;
+    gap: 15px;
+}
+
+.blog-post-box.style-two {
+    padding: 85px 24px 31px 21px;
+}
+
+.blog-post-content a {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.blog-details-thumb.two {
+    margin-bottom: 20px;
+}
+
+.blog-details-social-icon {
+    text-align: left;
+    padding-top: 25px;
+}
+
+.single-comment-area {
+    padding: 49px 21px 56px;
+    margin-bottom: 32px;
+}
+
+.blog-details-comment-thumb {
+    float: inherit;
+    margin-right: 10px;
+    margin-bottom: 18px;
+}
+
+.blog-details-comment {
+    padding: 29px 25px 25px;
+}
+
+.blog-details-comment-content h2 {
+    margin-right: 8px;
+}
+
+.blog-details-comment.style-two {
+    margin-left: 0px;
+}
+
+.blog-details-comment-reply {
+    right: 17px;
+}
+
+.row.contact-info-bg {
+    padding: 50px 30px 14px;
+}
+
+.contact-info-box {
+    margin-bottom: 35px;
+}
+
+
+
+
+}
+
+
+
+/* Mobile Devices :320px. */
+@media (min-width: 320px) and (max-width: 479px) {
+
+/*Home 1 Resopnsive*/
+.top-header-area {
+   display: none;
+}
+
+.header-area {
+    display: none;
+}
+
+.sticky {
+    position: absolute !important;
+}
+
+.hero-area {
+    height: 740px;
+    padding-top: 57px;
+}
+
+.hero-content h1 {
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.hero-social-icon {
+    display: none;
+}
+
+.hero-content p {
+    width: 100%;
+    font-size: 16px;
+}
+
+.hero-slides .owl-dots {
+    display: none;
+}
+
+.echofy-button.two {
+    margin-top: 25px;
+    padding-left: 0;
+}
+
+.about-thumb {
+    left: 0;
+    padding-bottom: 36px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+img.about-thumb-shape {
+    bottom: -8px;
+}
+
+.section-title.left h4 {
+    margin-bottom: 9px;
+}
+
+.section-title.left h1 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.about-box-icon {
+    float: inherit;
+}
+
+.about-box-content p {
+    width: 100%;
+}
+
+.about-shape-2 {
+    left: 248px;
+}
+
+.service-area {
+    padding: 113px 0 110px;
+}
+
+.service-area .owl-nav {
+   display:none;
+}
+
+.service-content {
+    padding: 35px 20px 159px;
+}
+
+.service-content h4 {
+    font-size: 22px;
+}
+
+.service-thumb img {
+    padding: 0 19px;
+}
+
+.skill-area {
+    padding: 112px 0 115px;
+}
+
+p.section-desc {
+    width: 100%;
+}
+
+.skills-item-title h4 {
+    font-size: 18px;
+}
+
+.skills-item-content {
+    gap: 12px;
+    padding: 18px 50px 18px 26px;
+}
+
+.skills-thumb {
+    left: 0;
+}
+
+.skills-thumb img {
+    width: 100%;
+    padding-top: 38px;
+}
+
+.skills-shape {
+    top: -2px;
+    left: 0;
+}
+
+.counter-area {
+    padding: 80px 0 134px;
+    background-position: center center;
+}
+
+.single-counter-box {
+    margin-bottom: 37px;
+}
+
+#poress-row {
+    padding: 18px 7px 36px;
+}
+
+.porcess-thumb {
+    position: relative;
+    left: 0;
+    padding-bottom: 28px;
+}
+
+.porcess-thumb img {
+    width: 100%;
+}
+
+.project-area {
+    padding-left: 0;
+}
+
+.project-area .owl-nav {
+    display: none;
+}
+
+.project-content {
+    padding: 30px 19px 28px;
+    width: 95%;
+    height: 109px;
+}
+
+.project-content h4 {
+    margin: 0 0 7px;
+}
+
+.project-content a {
+    font-size: 20px;
+}
+
+a.project-button {
+    margin-top: 8px;
+}
+
+.process-area-two .section-title.center {
+    margin-bottom: 37px;
+}
+
+.process-area-two .section-title.center h4 {
+    margin-bottom: 13px;
+}
+
+.process-area-two .section-title.center h1 {
+    font-size: 22px;
+    line-height: 29px;
+}
+
+.single-process-box-two {
+    padding: 0 0 0;
+}
+
+.single-process-box-two::before {
+    display: none;
+}
+
+.single-process-box-two.style-three::before {
+    display: none;
+}
+
+.section-title.center h4 {
+    margin-bottom: 17px;
+}
+
+.section-title.center h1 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.testimonial-area {
+    background-position: center;
+}
+
+.single-testimonial-box {
+    padding: 34px 23px 32px;
+    margin: 39px 10px;
+}
+
+.testi-shape-tow {
+    display: none;
+}
+
+.testi-shape-four {
+    display: none;
+}
+
+.testi-author {
+    display: block;
+}
+
+.testi-author-thumb {
+    padding-bottom: 13px;
+}
+
+p.testi-desc {
+    margin: 12px 0 17px;
+}
+
+.testi-shape {
+    left: -35%;
+}
+
+#brand-bg {
+    padding: 64px 0 61px;
+}
+
+.brand-content h4 {
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+
+.single-shape {
+    display: none;
+}
+
+.team-area {
+    background-position: center;
+}
+
+.blog-area .echofy-button {
+    margin-top: 0;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.blog-content {
+    padding: 27px 14px 28px;
+}
+
+.blog-content a {
+    font-size: 19px;
+    line-height: 28px;
+}
+
+.footer-social-address {
+    padding: 49px 12px 55px;
+}
+
+.footer-social-address-content h4 {
+    font-size: 24px;
+}
+
+.footer-social-icon {
+    text-align: left;
+    padding-top: 16px;
+}
+
+.footer-social-icon ul li i {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    margin: 0 0px;
+}
+
+p.footer-desc {
+    width: 90%;
+}
+
+.footer-widget-content {
+    margin-bottom: 25px;
+}
+
+.footer-bottom-area {
+    padding: 74px 0 33px;
+}
+
+.footer-bottom-content h4 {
+    line-height: 28px;
+}
+
+
+/*===============Home two Responsive Css============*/
+
+.hero-area.home-two {
+    height: 600px;
+    padding-top: 58px;
+}
+
+.home-two .hero-thumb {
+    display: none;
+}
+
+.hero-content h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.home-two .hero-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.home-two .hero-content p {
+    width: 100%;
+}
+
+.home-two .hero-shape {
+    display: none;
+}
+
+.home-two .about-thumb {
+    left: 0;
+}
+
+.home-two .about-video {
+    right: 14px;
+}
+
+.home-two .about-single-box {
+    display: block;
+}
+
+.home-two .about-author-box {
+    gap: 15px;
+}
+
+.home-two .about-author-content h4 {
+    font-size: 16px;
+}
+
+.home-two .about-author-content p {
+    margin-top: 3px;
+}
+
+.home-two.about-area .echofy-button {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.home-two .about-list-item ul li {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 14px;
+}
+
+.home-two .about-list-item ul li i {
+    top: 3px;
+    margin-right: 5px;
+}
+
+.home-two.service-title-area {
+    padding: 112px 0 192px;
+}
+
+.home-two .row.service-up {
+    margin-top: -305px;
+}
+
+.home-two .service-content {
+    padding: 64px 19px 23px;
+}
+
+.services-shape-one {
+   display: none;
+}
+
+.services-shape-two {
+  display: none;
+}
+
+.home-two .row.fade-de {
+    padding: 85px 15px 55px;
+}
+
+.home-two.counter-area .section-title.left h1 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.home-two.counter-area .section-title.left {
+    margin-bottom: 32px;
+}
+
+.home-two .single-counter-box {
+    gap: 12px;
+}
+
+.counter-content p {
+    font-size: 18px;
+    margin: -1px 0 0;
+}
+
+.home-two .project-content {
+    width: 100%;
+    left: 0;
+}
+
+.faq-singular .faq-question {
+    font-size: 14px;
+}
+
+.faqs-area p.section-desc {
+    width: 94%;
+}
+
+.faq-singular .faq-question {
+    padding: 19px 8px 19px 12px;
+}
+
+.faq-question img {
+    display: none;
+}
+
+.faq-question:after {
+  display: none;
+}
+
+.faq-singular .faq-question:before {
+    right: 9px;
+    top: 50%;
+    font-size: 22px;
+}
+
+.faq-answer {
+    padding: 21px 16px 25px;
+}
+
+.faqs-area .echofy-button {
+    margin-bottom: 38px;
+}
+
+.donation-title-area {
+    padding: 109px 0 187px;
+}
+
+.donation-area .row.donate {
+    margin-top: -189px;
+}
+
+.donation-content {
+    padding: 26px 24px 23px;
+}
+
+.donation-content a {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.single-donation-box:hover .donate-button {
+    bottom: 81px;
+}
+
+.donation-shape-one {
+   display: none;
+}
+
+.donation-shape-two {
+  display: none;
+}
+
+.home-two.testimonial-area {
+    background-position: center right;
+}
+
+.home-two.testimonial-area .testi-shape {
+    top: -18px;
+    left: -168px;
+}
+
+.text-block {
+    font-size: 16vw;
+}
+
+.blog-content a {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.footer-social-address-content h4 {
+    font-size: 31px;
+}
+
+.home-two.footer-area .echofy-button {
+    margin-top: 0;
+    display: inherit;
+    text-align: left;
+    margin-top: 23px;
+}
+
+.home-two p.footer-desc {
+    width: 95%;
+}
+
+.home-two .footer-widget-blog-content a {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+
+/*===============Home Three Responsive Css============*/
+
+.home-three.text-area {
+    padding: 179px 0 111px;
+}
+
+.home-three .text-area-content h1 {
+    font-size: 23px;
+}
+
+.home-three .text-area-content p {
+    width: 90%;
+}
+
+.home-three.hero-area {
+    height: 550px;
+    padding-top: 15px;
+}
+
+.home-three .hero-content h2 {
+    font-size: 32px;
+    letter-spacing: 10px;
+}
+
+.home-three .about-thumb {
+    left: 0;
+}
+
+.home-three .about-desc p {
+    width: 97%;
+    margin-top: 14px;
+}
+
+.home-three .nav-link {
+    padding: 12px 15px;
+    margin-right: 8px;
+    margin-bottom: 23px;
+}
+
+.home-three .single-about-item {
+    display: block;
+}
+
+.about-img {
+    margin-top: 26px;
+}
+
+.home-three.about-area .style-two.echofy-button a {
+    font-size: 15px;
+    padding: 12px 30px;
+}
+
+.home-three.services-area .row.add-background {
+    padding: 0 8px 39px;
+}
+
+.home-three .single-service-box {
+    margin-bottom: 20px;
+}
+
+.home-three.counter-area p.section-desc {
+    width: 86%;
+}
+
+.home-three .average-rating h4 {
+    margin: 0 0 15px;
+}
+
+.home-three .single-rating-box {
+    display: block;
+}
+
+.home-three .single-counter-box {
+    margin-top: 22px;
+}
+
+.home-three.project-area .section-title.left {
+    margin-bottom: 34px;
+}
+
+.home-three.project-area .section-title.left h1 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.home-three.project-area .style-two.echofy-button {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+.home-three.project-area .container-fluid {
+    margin: 0 0 0 10px;
+}
+
+.home-three .single-project-content a {
+    font-size: 19px;
+}
+
+.home-three.skill-area {
+    background-position: center right;
+}
+
+.home-three .vedio-content {
+    display: none;
+}
+
+.home-three.testimonial-area .section-title.center h1 {
+    font-size: 17px;
+}
+
+.home-three .single-testi-box {
+    padding: 56px 26px 33px;
+}
+
+.home-three .testi-rating-box {
+    display: block;
+}
+
+.home-three .faqs-thumb {
+    margin-top: 17px;
+    left: 0;
+}
+
+.faqs-thumb img {
+    width: 100%;
+}
+
+.home-three .blog-content {
+    padding: 37px 17px 39px;
+}
+
+.home-three .meta-blog span {
+    margin-right: 5px;
+}
+
+.home-three .blog-title a {
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.home-three .subscribe-content p {
+    margin: 10px 0 33px;
+}
+
+.home-three .subscribe-box input {
+    width: 100%;
+}
+
+.home-three .subscribe-box button {
+    left: 0px;
+    margin-top: 16px;
+    float: inherit;
+}
+
+.home-three .footer-widget-content {
+    margin-bottom: 48px;
+}
+
+.home-three .footer-bottom-area {
+    margin-top: 58px;
+}
+
+
+/*===============Home Four Responsive Css============*/
+.home-four.hero-area {
+    background-position: center right;
+    height: 748px;
+}
+
+.home-four .hero-content h1 {
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.home-four h2.solar-text {
+    font-size: 60px;
+    top: -35px;
+    left: -9px;
+}
+
+.home-four .hero-content p {
+    width: 100%;
+}
+
+.home-four .hero-contact {
+    margin-left: 0;
+    margin-top: 22px;
+}
+
+.home-four .single-conter-box {
+    margin-top: 36px;
+}
+
+.home-four .about-thumb {
+    position: relative;
+    left: 0;
+}
+
+.home-four .about-single-text-box {
+    display: none;
+}
+
+.home-four .about-shape {
+    display: none;
+}
+
+.home-four .about-itme-list ul li {
+    font-size: 16px;
+}
+
+.home-four .about-single-text-box {
+    right: -13px;
+    bottom: 16px;
+    width: 65%;
+}
+
+.home-four .about-item-box {
+    display: block;
+}
+
+.home-four .single-services-box {
+    padding: 35px 13px 45px;
+}
+
+.home-four .services-content h4 {
+    font-size: 20px;
+}
+
+.solar-text-contnet h4 {
+    font-size: 28px;
+}
+
+.home-four .skill-thumb img {
+    width: 100%;
+}
+
+.home-four .testi-thumb {
+    left: 0;
+}
+
+.home-four .testi-thumb img {
+    width: 100%;
+}
+
+.home-four .testi-content {
+    bottom: 62px;
+}
+
+.home-four p.testi-text {
+    width: 100%;
+}
+
+.home-four .testi-author {
+    display: block;
+    margin-top: 26px;
+}
+
+.home-four .testi-coustomar-raing ul li {
+    left: -88px;
+    top: 19px;
+}
+
+.home-four .info-content {
+    margin-left: 0;
+    padding: 32px 15px 28px;
+}
+
+.home-four .info-content h4 {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.home-four .call-do-action-content h4 {
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.home-four .info-shape {
+    right: 41%;
+    top: 45px;
+}
+
+.home-four.call-do-action-area .style-three.echofy-button {
+    float: left;
+    margin-top: 39px;
+}
+
+.home-four .footer-widget-menu-list ul li {
+    display: inline-block;
+    float: left;
+    margin-left: 18px;
+    margin-top: 16px;
+}
+
+
+
+
+
+
+/*===============Home Five Responsive Css============*/
+
+.home-five.hero-area {
+    padding-top: 79px;
+    padding-bottom: 154px;
+    height: 865px;
+}
+
+.home-five .hero-info {
+    display: none;
+}
+
+.home-five .hero-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.home-five .hero-content p {
+    width: 90%;
+    font-size: 16px;
+}
+
+.home-five.video-area {
+    width: 99%;
+    left: 0;
+    margin-top: -142px;
+}
+
+.hero-slide-five .owl-dots {
+   display: none;
+}
+
+.slider-counter {
+    display: none;
+}
+.slider-counter:before{
+    display: none;
+}
+
+.home-five.animal-area {
+    padding: 187px 0 99px;
+}
+
+.home-five .single-animal-box {
+    margin-bottom: 24px;
+}
+
+.home-five .single-animal-box.active .animal-link-icon a {
+    top: 43%;
+    left: 45%;
+}
+
+.home-five .single-about-box {
+    right: 0px;
+}
+
+.home-five .section-title.left h1 {
+    font-size: 19px;
+    line-height: 15px;
+}
+
+.home-five .about-contact-box {
+    display: block;
+    margin-top: 48px;
+}
+
+.home-five .about-contact-info {
+    margin-top: 23px;
+}
+
+.home-five .about-shape {
+    display: none;
+}
+
+.home-five .about-icon img {
+    width: 30%;
+}
+
+.home-five.about-area p.section-desc {
+    width: 88%;
+}
+
+.home-five .about-item-text h4 {
+    font-size: 14px;
+}
+
+.home-five p.about-desc {
+    width: 90%;
+}
+
+.home-five.gallery-area .style-four.echofy-button {
+    float: left;
+    margin-top: -16px;
+    margin-bottom: 58px;
+}
+
+.home-five .contact-info-title h4 {
+    font-size: 15px;
+}
+
+.home-five .contact-info-title h1 {
+    font-size: 18px;
+    margin-top: 13px;
+}
+
+.home-five.contact-info-area .contact-info-box {
+    padding-left: 0;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.home-five.contact-info-area .echofy-button {
+    margin-top: 43px;
+}
+
+.home-five .section-title.center h1 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.home-five .nav-link {
+    padding: 20px 64px;
+}
+
+.home-five .single-event-box {
+    display: block;
+    padding: 12px 10px;
+}
+
+.home-five .event-titel h4 {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.home-five .single-event:hover {
+    height: 806px;
+}
+
+.home-five .event-date span {
+    font-size: 15px;
+}
+
+.home-five .event-date i {
+    margin-right: 4px;
+}
+
+.home-five .event-desc-box {
+    padding: 28px 0px 0 16px;
+}
+
+.home-five .single-event-button a {
+    padding: 20px 22px;
+    font-size: 14px;
+}
+
+.home-five.donation-area .section-title.left h1 {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.home-five.donation-area p.section-desc {
+    width: 100%;
+}
+
+.home-five .donation-list ul li a {
+    padding: 7px 10px;
+}
+
+.home-five .single-donation-box {
+    padding: 97px 16px 112px;
+}
+
+.home-five .donation-list ul li {
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.home-five .donation-right {
+    padding: 119px 26px 137px;
+    margin-top: 30px;
+}
+
+.home-five .donation-right-content h1 {
+    font-size: 26px;
+}
+
+.home-five.animal-video-area .section-title.left h1 {
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.home-five .animal-video-button {
+    float: left;
+    margin-top: 45px;
+}
+
+.home-five.animal-video-area .echofy-button {
+    margin-top: -15px;
+}
+
+.home-five .single-testimonial-box {
+    padding: 34px 18px 32px 42px;
+}
+
+.home-five .testimonial-content p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.home-five .blog-content {
+    padding: 27px 22px 41px;
+    width: 93%;
+}
+
+.home-five .blog-content a {
+    font-size: 17px;
+}
+
+.home-five .meta-blog span {
+    margin-right: 16px;
+}
+
+.home-five .footer-contact-info {
+    margin-top: 23px;
+}
+
+.home-five .footer-widget-gallery a img {
+    margin: 5px -1px;
+}
+
+.footer-bottom-content {
+    float: left;
+    margin-top: 8px;
+}
+
+.home-five .footer-bottom-content ul li {
+    margin: 0 5px;
+}
+
+.home-five .footer-bottom-content p {
+    font-size: 15px;
+}
+
+
+
+/*===============Home Six Responsive Css============*/
+
+.hero-area.home-six {
+    height: 700px;
+    padding-top: 23px;
+}
+
+.home-six .hero-content h4 {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.hero-area.home-six .hero-content h1 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.home-six .single-feature-box {
+    padding: 26px 29px 37px;
+    margin-bottom: 23px;
+    display: block;
+}
+
+.home-six .section-title.left h1 {
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.home-six .section-title.center h1 {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.home-six.about-area {
+    padding: 81px 0 123px;
+}
+
+.home-six .about-item-box {
+    display: block;
+}
+
+.home-six .about-list-item ul li i {
+    margin-right: 7px;
+}
+
+.home-six.service-area .row.upper {
+     top: -321px;
+    margin-left: -2px;
+}
+
+.home-six .single-service-box {
+    padding: 11px 13px 43px;
+}
+
+.home-six.why-choose-area {
+    padding: 375px 0 84px;
+}
+
+.home-six .why-choose-us-item {
+    display: block;
+}
+
+.home-six .why-choose-thumb {
+    left: 0;
+    margin-bottom: 43px;
+}
+
+.home-six .why-choose-thumb img{
+    width: 100%;
+}
+
+.home-six.why-choose-area p.section-desc {
+    width: 100%;
+}
+
+.home-six .choose-us-content p {
+    width: 100%;
+}
+
+.home-six .choose-us-icon {
+    margin-bottom: 18px;
+}
+
+.home-six .choose-us-content h4 {
+    font-size: 17px;
+}
+
+.home-six .single-pricing-box {
+    padding: 42px 15px 53px;
+    margin-bottom: 22px;
+}
+
+.home-six.pricing-area .single-pricing-box .echofy-button {
+    text-align: left;
+}
+
+.home-six.team-area {
+    padding: 122px 0 103px;
+}
+
+.home-six .single-team-box {
+    margin-bottom: 24px;
+}
+
+.home-six.skill-area {
+    background-position: center left;
+}
+
+.home-six .skill-bar span {
+    left: 70px;
+}
+
+.home-six span.skill-count2 {
+    left: 43px !important;
+}
+
+.home-six span.skill-count3 {
+    left: 77px !important;
+}
+
+.home-six.skill-area p.section-desc {
+    width: 100%;
+}
+
+.home-six .single-testimonial-box {
+    padding: 25px 22px 49px;
+    margin: 57px -5px;
+}
+
+.home-six.blog-area {
+    padding: 111px 0 94px;
+}
+
+.home-six .single-blog-box {
+    margin-bottom: 50px;
+}
+
+.home-six .blog-content {
+    padding: 23px 18px 54px;
+}
+
+.home-six .blog-content a {
+    font-size: 16px;
+}
+
+.home-six .contact-content h4 {
+    font-size: 21px;
+    line-height: 20px;
+}
+
+.home-six .contact-left {
+    text-align: left;
+    left: 0;
+}
+
+.home-six .contact-icon {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.home-six .contact-title h4 {
+    margin-bottom: 50px;
+    margin-top: 42px;
+     font-size: 26px;
+}
+
+.home-six.contact-area:before {
+    background: transparent;
+}
+
+.home-six .contact-submit-button button {
+    background: #ffff;
+    color: #49AE44;
+    border: 2px solid #fff
+}
+
+.home-six .footer-social-icon {
+    margin-bottom: 34px;
+}
+
+.home-six .footer-bottom-content ul li {
+    margin: 0 5px;
+}
+
+/*===============Home Seven Responsive Css============*/
+.hero-area.home-seven {
+    background-position: center left;
+     height: 733px;
+    padding-top: 82px;
+}
+
+.home-seven .hero-content h4 {
+    font-size: 12px;
+}
+
+.home-seven .hero-content h1 {
+    font-size: 30px;
+    line-height: 26px;
+}
+
+.home-seven .hero-content p {
+    width: 90%;
+}
+
+.home-seven .hero-img {
+    display: none;
+}
+
+.home-six.services-title-area p.section-desc {
+    margin: 2px 0 0;
+}
+
+.services-title-area.home-seven .row.upper {
+    margin-left: 0;
+}
+
+.home-seven .project-content-two {
+    padding: 25px 16px 37px;
+    width: 90%;
+}
+
+.home-seven .choose-shape {
+    top: 12px;
+    left: 41%;
+}
+
+.why-choose-us-right {
+    display: block;
+    width: 100%;
+}
+
+.single-choose-us-box {
+    margin-bottom: 26px;
+}
+
+.single-project-box-two {
+    position: relative;
+    margin: 0 0;
+}
+
+.project-content-two h4 {
+    font-size: 18px;
+}
+
+.home-seven .counter-content-two h4 {
+    font-size: 100px;
+    bottom: -8px;
+    left: -42px;
+}
+
+.counter-area.home-seven {
+    padding-left: 50px;
+}
+
+.home-seven .single-testi-box {
+    padding: 29px 19px 34px;
+    margin: 0 0px;
+}
+
+.home-seven .testi-author-rating {
+    right: -60px;
+    top: 98px;
+    transform: rotate(90deg);
+}
+
+.home-seven.faqs-area .section-title.left h1 {
+    font-size: 36px;
+    line-height: 35px;
+}
+
+.home-seven .faq-singular .faq-question:before {
+    right: 1px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.home-seven .vedio-content a {
+    top: 40px;
+}
+
+.home-seven .contact-left iframe {
+    width: 100%;
+    height: 360px;
+}
+
+.home-seven .contact-submit-button button {
+    background: #49AE44;
+    color: #fff;
+    margin-bottom: 128px;
+}
+
+
+.home-six.home-seven .blog-content {
+    padding: 23px 17px 54px;
+}
+
+.home-seven .marque-content h4 {
+    font-size: 45px;
+}
+
+
+
+
+/*===============All Inner Pages Responsive Css============*/
+
+
+
+.breadcumb-area {
+    padding: 177px 0 98px;
+}
+
+.breadcumb-title h4 {
+    font-size: 22px;
+    padding-bottom: 8px;
+}
+
+h4.services-details-title {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.service-details-icon-box {
+    padding: 32px 17px 18px;
+    display: block;
+    text-align: center;
+}
+
+.services-details-area .single-benifits-box {
+    margin-bottom: 40px;
+}
+
+.services-details-text {
+    padding: 29px 26px;
+    display: block;
+}
+
+.service-details-text-icon {
+    margin-bottom: 12px;
+}
+
+.service-details-text-content p {
+    font-size: 18px;
+    line-height: 26px;
+    width: 100%;
+}
+
+.service-details-icon-thumb {
+    margin-bottom: 20px;
+}
+
+.services-details-area .benifits-content {
+    padding: 30px 18px 23px;
+    width: 100%;
+}
+
+/*widget-sidber*/
+.widget-sidber {
+    padding: 32px 16px 29px;
+}
+.recent-widget-content a {
+    font-size: 14px;
+    line-height: 23px;
+    width: 100%;
+}
+
+.widget-sidber-contact-box {
+    padding: 48px 18px 48px;
+}
+
+.widget-sidber-contact-btn  a {
+    padding: 16px 50px 15px;
+    margin-top: 42px;
+}
+
+.project-details-content h4 {
+    font-size: 18px;
+}
+
+.project-details-content h3 {
+    font-size: 22px;
+}
+
+.project-details-right {
+    margin-bottom: 37px;
+}
+
+a.project-details-text {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.donation-details-area .donation-content {
+    padding: 67px 7px 23px;
+}
+
+h4.dontaion-detais-title {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.donation-details-area .dpx label {
+    margin-right: 17px;
+}
+
+.donation-details-area button.submit-donation {
+    margin-bottom: 44px;
+}
+
+.faqs-area.inner .faqs-thumb {
+    margin-bottom: 32px;
+}
+
+.blog-list-content {
+    padding: 27px 13px 20px;
+}
+
+.blog-list-area .meta-blog span {
+    margin-right: 4px;
+}
+
+a.blog-list-title {
+    font-size: 18px;
+}
+
+.blog-details-content {
+    padding: 27px 13px 20px;
+}
+
+h4.blog-details-title {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.blog-details-author-talk {
+    display: block;
+    padding: 41px 20px 40px;
+}
+
+.blog-details-quote {
+    margin-bottom: 30px;
+}
+
+h3.blog-details-title {
+    font-size: 18px;
+}
+
+h3.blog-details-title.two {
+    font-size: 18px;
+}
+
+.blog-details-socila-box {
+    padding: 19px 7px 18px;
+}
+
+.blog-details-category span a {
+    padding: 6px 10px;
+    margin-right: 7px;
+}
+
+.blog-details-author-title p {
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.blog-post-box {
+    padding: 84px 21px 31px 22px;
+    gap: 15px;
+}
+
+.blog-post-box.style-two {
+    padding: 85px 24px 31px 21px;
+}
+
+.blog-post-content a {
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.blog-details-post .owl-prev {
+    left: 24px;
+    font-size: 15px !important;
+}
+
+.blog-details-post .owl-next {
+    right: 20px;
+    font-size: 15px;
+}
+
+.blog-details-thumb.two {
+    margin-bottom: 20px;
+}
+
+.blog-details-social-icon {
+    text-align: left;
+    padding-top: 25px;
+}
+
+.single-comment-area {
+    padding: 49px 21px 56px;
+    margin-bottom: 32px;
+}
+
+.blog-details-comment-thumb {
+    float: inherit;
+    margin-right: 10px;
+    margin-bottom: 18px;
+}
+
+.blog-details-comment {
+    padding: 29px 14px 25px;
+}
+
+.blog-details-comment-content h2 {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.blog-details-comment.style-two {
+    margin-left: 0px;
+}
+
+.blog-details-comment-reply {
+    right: 17px;
+}
+
+.row.contact-info-bg {
+    padding: 50px 30px 14px;
+}
+
+.contact-info-box {
+    margin-bottom: 35px;
+    padding: 0 0px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*xl device min width*/
+@media screen and (min-width:992px) {
+    .pl-lg-50 {
+        padding-left: 50px;
+    }
+}
+
+/*xl device min width*/
+@media screen and (min-width:1200px) {
+    .video-icon {
+        left: 75%;
+    }
+}
