@@ -19,8 +19,8 @@
     .owlCarousel({
       loop: true,
       autoplay: true,
-      smartSpeed: 1500,
-      autoplayTimeout: 1500,
+      smartSpeed: 2500,
+      autoplayTimeout: 2500,
       dots: true,
       dotsData: false,
       nav: false,
