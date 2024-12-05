@@ -1090,8 +1090,8 @@ span.number {
 
 .skills-shape {
     position: absolute;
-    top: 28px;
-    left: 22px;
+    top: -10px;
+    right: 22px;
     animation: dance4 4s linear infinite;
 }
 
@@ -1115,7 +1115,7 @@ span.number {
 
 .skills-shape-2 {
     position: absolute;
-    right: 0;
+    left: -30px;
     bottom: 20px;
     z-index: -1;
     animation: dance4 4s linear infinite;
@@ -1194,7 +1194,7 @@ span.number {
    <!--Echofy Project Area Css-->
 ==================================---*/
 .project-area {
-    background: url(../images/home1/project-bg.jpg);
+    // background: url(../images/home1/project-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 556px 0 0;

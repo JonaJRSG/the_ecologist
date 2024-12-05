@@ -38,6 +38,25 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">	
 	<!-- modernizr js -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+	<!--== Mapa CSS ==-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+	<style>
+		.info-map {
+			padding-bottom: 100px;
+		}
+		@media (max-width: 990px) {
+			.info-map {
+				padding-bottom: 0px;
+			}
+		}
+
+		#map {
+			border: 4px #4bb44a solid
+		}
+	</style>
 </head>
 
 <body>
@@ -101,12 +120,12 @@
 			<div class="col-lg-9">
 				<div class="header-menu">
 					<ul>
-						<li class="menu-item-has-children"><a href="#">Inicio</i></a>
+						<li class="menu-item-has-children"><a href="index.html">Inicio</i></a>
 						</li>
-						<li><a href="about.html">Sobre Nosotros</a></li>
+						<li><a href="">Sobre Nosotros</a></li>
 						<li class="menu-item-has-children"><a href="#">Blog</a>
 						</li>
-						<li><a href="contact.html">Contacto</a></li>
+						<li><a href="">Contacto</a></li>
 					</ul>
 					
 				</div>
@@ -389,88 +408,38 @@
 <div class="skill-area">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-lg-6">
+			<div class="col-lg-6 info-map">
 				<div class="section-title left">
 					<h4><img src="assets/images/home1/section-shape.png" alt="">Centros de reciclaje </h4>
 					<h1>¿Dónde reciclar?</h1>
-					<p class="section-desc">
-						Competently cultivate worldwide e-tailers through principle-centered value 
-                        professionally engineer high-payoff deliverables without exceptional processes. 
-                        Rapidiously network cost effective vortals
-					</p>
 				</div>
-				<div class="skills-item">
-					<div class="skills-item-content">
-						<div class="skills-item-icon">
-							<i class="bi bi-check"></i>
-						</div>
-						<div class="skills-item-title">
-							<h4>Safe Environment</h4>
-						</div>
-					</div>
-				</div>			
-				<div class="skills-item">
-					<div class="skills-item-content">
-						<div class="skills-item-icon">
-							<i class="bi bi-check"></i>
-						</div>
-						<div class="skills-item-title">
-							<h4>Dirty Recycling</h4>
-						</div>
-					</div>
-				</div>
-				<div class="skills-content">
-					<p>Recycling</p>
-					<div class="skill-bg"></div>
-					<div class="skills html"><span class="number">90%</span></div>
-				</div>
-
-				<div class="skills-content">
-					<p>Ocean Cleaning</p>
-					<div class="skill-bg"></div>
-				<div class="skills css"><span class="number">80%</span></div>
-				</div>
+				<p>Nombre: <span id="nombre"></span></p>
+				<p>Dirección: <span id="direccion"></span></p>
+				<p>Teléfono: <span id="telefono"></span></p>
+				<p>Tipo de pago: <span id="tipo_de_pago"></span></p>
+				<p>Correo: <span id="correo"></span></p>
+				<p>Facebook: <span id="facebook"></span></p>
+				<p>Página web: <span id="pagina_web"></span></p>
 			</div>
 			<div class="col-lg-6">
 				<div class="skills-thumb">
-					<img src="assets/images/home1/skill-thumb.png" alt="">
-					<div class="skills-shape">
+					<!--== Start Map ==-->
+					<div id="map" style="height: 500px; z-index: -100;"></div>
+					<!--== End Map ==-->
+					<div class="skills-shape" style="width: 100px; height: 100px;">
 						<img src="assets/images/home1/skill-shape-1.png" alt="">
 					</div>     				
 					<div class="skills-shape-2">
 						<img src="assets/images/home1/skill-shape-2.png" alt="">
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="skill-area">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-6">
-				<div class="section-title left">
-					<h4><img src="assets/images/home1/section-shape.png" alt="">Centros de reciclaje </h4>
-					<h1>¿Dónde reciclar?</h1>
-				</div>
-				<p>Nombre: </p>
-				<p>Dirección: </p>
-				<p>Telefono: </p>
-				<p>Tipo de pago: </p>
-				<p>Correo: </p>
-				<p>Facebook: </p>
-				<p>Página web: </p>
-			</div>
-			<div class="col-lg-6">
-				<div class="skills-thumb">
-					<img src="assets/images/home1/skill-thumb.png" alt="">
-					<div class="skills-shape">
-						<img src="assets/images/home1/skill-shape-1.png" alt="">
-					</div>     				
-					<div class="skills-shape-2">
-						<img src="assets/images/home1/skill-shape-2.png" alt="">
-					</div>
+				<div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
+					<button style="display: inline-block; padding: 10px; border-radius: 50%; background-color: #4bb44a" onclick="cambiarLocal(-1)">
+						<img src="./venobox/prev.gif" alt="">
+					</button>
+					<button style="display: inline-block; padding: 10px; border-radius: 50%; background-color: #4bb44a" onclick="cambiarLocal(1)">
+						<img src="./venobox/next.gif" alt="">
+					</button>
 				</div>
 			</div>
 		</div>
@@ -495,9 +464,9 @@
 		    			<img src="assets/images/home1/counter-icon-1.png" alt="">
 		    		</div>
 		    		<div class="counter-content">
-		    			<h4 class="counter">100</h4>
+		    			<h4 class="counter">70</h4>
 		    			<span>+</span>
-		    			<p>Team Member</p>
+		    			<p>Miembros</p>
 		    		</div>
 		    	</div>
 		    </div>		  
@@ -507,9 +476,9 @@
 		    			<img src="assets/images/home1/counter-icon-2.png" alt="">
 		    		</div>
 		    		<div class="counter-content">
-		    			<h4 class="counter">960</h4>
+		    			<h4 class="counter">15</h4>
 		    			<span>+</span>
-		    			<p>Complete Works</p>
+		    			<p>Reciclatones</p>
 		    		</div>
 		    	</div>
 		    </div>		   
@@ -519,8 +488,9 @@
 		    			<img src="assets/images/home1/counter-icon-3.png" alt="">
 		    		</div>
 		    		<div class="counter-content">
-		    			<h4 class="counter">38</h4>
-		    			<p>Award Wining</p>
+		    			<h4 class="counter">54</h4>
+						<span>+</span>
+		    			<p>Toneladas</p>
 		    		</div>
 		    	</div>
 		    </div>		   
@@ -530,8 +500,9 @@
 		    			<img src="assets/images/home1/counter-icon-4.png" alt="">
 		    		</div>
 		    		<div class="counter-content">
-		    			<h4 class="counter">4.7</h4>
-		    			<p>Avg Ratings</p>
+		    			<h4 class="counter">900</h4>
+						<span>+</span>
+		    			<p>Beneficiados</p>
 		    		</div>
 		    	</div>
 		    </div>
@@ -542,137 +513,127 @@
 <!-- End Echofy Counter Area -->
 <!--==================================================-->
 
-
-
 <!--==================================================-->
-<!-- Strat Echofy Process Area -->
+<!-- Strat Echofy Team Area-->
 <!--==================================================-->
-<div class="process-area">
+<div class="team-area">
+	<!--==================================================-->
+	<!-- Strat Echofy Process Area -->
+	<!--==================================================-->
+	<div class="process-area" style="margin-top: -250px; margin-bottom: 100px;">
+		<div class="container">
+			<div class="row align-items-center" id="poress-row">
+				<div class="col-lg-6 col-md-12">
+					<div class="porcess-thumb">
+						<img src="assets/images/home1/Reciclaton.jpg" alt="">
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="process-left">
+						<div class="section-title left">
+							<h4><img src="assets/images/home1/section-shape.png" alt="">Conocenos </h4>
+							<h1>Equipo 'The Ecologist'</h1>
+							<p class="section-desc">
+								Somos un equipo de estudiantes de la Universidad Madero, apasionados por el medio ambiente y comprometidos con la creación de conciencia ecológica. Nuestro propósito es ofrecer un espacio que no solo informe, sino que inspire a nuestra comunidad y a muchas más personas a unirse al cambio. Juntos, podemos marcar la diferencia y construir un futuro más sostenible.
+							</p>
+						</div>
+						<div class="echofy-button">
+							<a href="contact.html">Conocenos <img src="assets/images/home1/button-shape.png" alt=""></a>
+							<img class="two" src="assets/images/home1/button-shape-2.png" alt="">
+						</div>
+						<div class="process-shape">
+							<img src="assets/images/home1/about-shape-2.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!-- End Echofy Process Area -->
+	<!--==================================================-->
 	<div class="container">
-		<div class="row align-items-center" id="poress-row">
-			<div class="col-lg-6 col-md-12">
-				<div class="porcess-thumb">
-					<img src="assets/images/home1/process-thumb.jpg" alt="">
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-12">
-				<div class="process-left">
-					<div class="section-title left">
-						<h4><img src="assets/images/home1/section-shape.png" alt="">Contact Us </h4>
-						<h1>Fresh Environmental</h1>
-						<h1>Plant & Safe Trees</h1>
-						<p class="section-desc">
-							Competently cultivate worldwide e-tailers through principle-centered value 
-	                        professionally engineer high-payoff deliverables without exceptional processes. 
-	                        Rapidiously network cost effective vortals
-						</p>
-					</div>
-					<div class="echofy-button">
-						<a href="contact.html">Contact Us <img src="assets/images/home1/button-shape.png" alt=""></a>
-						<img class="two" src="assets/images/home1/button-shape-2.png" alt="">
-					</div>
-					<div class="process-shape">
-	                     <img src="assets/images/home1/about-shape-2.png" alt="">
-	                </div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!--==================================================-->
-<!-- End Echofy Process Area -->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Strat Echofy Project Area -->
-<!--==================================================-->
-<div class="project-area">
-	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-9">
-				<div class="section-title left">
-					<h4><img src="assets/images/home1/section-shape.png" alt="">Our Projects </h4>
-					<h1>Finished the Latest Leading</h1>
-					<h1>Environmental Works</h1>
+			<div class="col-lg-12 text-center">
+				<div class="section-title center">
+					<h4><img src="assets/images/home1/section-shape.png" alt="">Nuestro Equipo</h4>
+					<h1>Conoce a los creadores de la pagina</h1>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="project-list-1 owl-carousel">
-				<div class="col-lg-12">
-					<div class="single-project-box">
-						<div class="project-thumb">
-							<img src="assets/images/home1/project-1.jpg" alt="">
-						</div>
-						<div class="project-content">
-							<h4>Climate</h4>
-							<a href="#">Cleaning Forest</a>
-							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
-							<div class="project-shape">
-								<img src="assets/images/home1/project-shape.png" alt="">
-							</div>
-						</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="single-team-box">
+					<div class="single-team-thumb">
+						<img src="assets/images/home1/team-1.png" alt="">
 					</div>
-				</div>				
-				<div class="col-lg-12">
-					<div class="single-project-box">
-						<div class="project-thumb">
-							<img src="assets/images/home1/project-2.jpg" alt="">
-						</div>
-						<div class="project-content">
-							<h4>Environment</h4>
-							<a href="#">Climate Solutions</a>
-							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
-							<div class="project-shape">
-								<img src="assets/images/home1/project-shape.png" alt="">
-							</div>
-						</div>
-					</div>
-				</div>				
-				<div class="col-lg-12">
-					<div class="single-project-box">
-						<div class="project-thumb">
-							<img src="assets/images/home1/project-3.jpg" alt="">
-						</div>
-						<div class="project-content">
-							<h4>Recycling</h4>
-							<a href="#">Plustic Recyclin</a>
-							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
-							<div class="project-shape">
-								<img src="assets/images/home1/project-shape.png" alt="">
-							</div>
-						</div>
-					</div>
-				</div>				
-				<div class="col-lg-12">
-					<div class="single-project-box">
-						<div class="project-thumb">
-							<img src="assets/images/home1/project-4.jpg" alt="">
-						</div>
-						<div class="project-content">
-							<h4>Climate</h4>
-							<a href="#">Ocean Cleaning</a>
-							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
-							<div class="project-shape">
-								<img src="assets/images/home1/project-shape.png" alt="">
-							</div>
+					<div class="team-content">
+						<h4>Rodrigo Juárez</h4>
+						<p>Ingeniero de software</p>
+						<div class="team-social-icon">
+							<ul>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-12">
-					<div class="single-project-box">
-						<div class="project-thumb">
-							<img src="assets/images/home1/project-3.jpg" alt="">
+			</div>			
+			<div class="col-lg-4 col-md-6">
+				<div class="single-team-box">
+					<div class="single-team-thumb">
+						<img src="assets/images/home1/team-2.png" alt="">
+					</div>
+					<div class="team-content">
+						<h4>Roberto Zamora</h4>
+						<p>Mercadologo</p>
+						<div class="team-social-icon">
+							<ul>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+							</ul>
 						</div>
-						<div class="project-content">
-							<h4>Recycling</h4>
-							<a href="#">Plustic Recyclin</a>
-							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
-							<div class="project-shape">
-								<img src="assets/images/home1/project-shape.png" alt="">
-							</div>
+					</div>
+				</div>
+			</div>			
+			<div class="col-lg-4 col-md-6">
+				<div class="single-team-box">
+					<div class="single-team-thumb">
+						<img src="assets/images/home1/Logo_Eco.png" alt="">
+					</div>
+					<div class="team-content">
+						<h4>Jonathan Serna</h4>
+						<p>Ingeniero de software</p>
+						<div class="team-social-icon">
+							<ul>
+								<li><a href="https://www.instagram.com/jonathan.rsg.serna/"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/jrsg/"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="https://ecojrsg.github.io/"><i class="fas fa-globe"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6"></div>
+			<div class="col-lg-4 col-md-6">
+				<div class="single-team-box">
+					<div class="single-team-thumb">
+						<img src="assets/images/home1/team-4.png" alt="">
+					</div>
+					<div class="team-content">
+						<h4>Armando Gonzalez</h4>
+						<p>Ingeniero de software</p>
+						<div class="team-social-icon">
+							<ul>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -681,21 +642,20 @@
 	</div>
 </div>
 <!--==================================================-->
-<!-- End Echofy Project Area -->
+<!-- End Echofy Brand Area-->
 <!--==================================================-->
-
 
 
 <!--==================================================-->
 <!-- Strat Echofy Process Area Two-->
 <!--==================================================-->
-<div class="process-area-two">
+<div class="process-area-two" style="background-color: #f6f6ee;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<div class="section-title center">
-					<h4><img src="assets/images/home1/section-shape.png" alt="">Working Process</h4>
-					<h1>Building a Greener Future</h1>
+					<h4><img src="assets/images/home1/section-shape.png" alt="">Blog</h4>
+					<h1>Conoce qué aprenderás</h1>
 				</div>
 			</div>
 		</div>
@@ -706,10 +666,9 @@
 						<img src="assets/images/home1/process-two-icon1.png" alt="">
 					</div>
 					<div class="process-two-content">
-						<h4>Sustain Solutions</h4>
-						<p>Proactively drive maintainable value next
-	                      mission-critical infrastructures eggplant
-	                      new environmental nature
+						<h4>Cómo ser sustentable</h4>
+						<p>
+							Aprende sobre proyectos o ideas que conviertan tu casa, escuela o cualquier espacio que desees en un lugar más sustentable y eficiente.
 	                    </p>
 					</div>
 				</div>
@@ -720,10 +679,9 @@
 						<img src="assets/images/home1/process-two-icon2.png" alt="">
 					</div>
 					<div class="process-two-content">
-						<h4>Renewable Energy</h4>
-						<p>Proactively drive maintainable value next
-	                      mission-critical infrastructures eggplant
-	                      new environmental nature
+						<h4>Cómo reciclar</h4>
+						<p>
+							Aprende sobre los residuos que produces, cuáles son los más contaminantes y cómo puedes ayudar a que estos se reciclen para crear nuevos productos.
 	                    </p>
 					</div>
 				</div>
@@ -734,11 +692,10 @@
 						<img src="assets/images/home1/process-two-icon3.png" alt="">
 					</div>
 					<div class="process-two-content">
-						<h4>Fresh Environment</h4>
-						<p>Proactively drive maintainable value next
-	                      mission-critical infrastructures eggplant
-	                      new environmental nature
-	                    </p>
+						<h4>Medio ambiente</h4>
+						<p>
+							Conoce todo lo que te rodea, lo impresionante y complejo que es, además de la importancia de cuidarlo y preservarlo.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -754,7 +711,7 @@
 <!--==================================================-->
 <!-- Strat Echofy Testimonial Area-->
 <!--==================================================-->
-<div class="testimonial-area">
+<div class="testimonial-area" style="display: none;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -861,7 +818,7 @@
 <!--==================================================-->
 <!-- Strat Echofy Brand Area-->
 <!--==================================================-->
-<div class="brand-area">
+<div class="brand-area" style="display: none;">
 	<div class="container">
 		<div class="row" id="brand-bg">
 			<div class="col-lg-12">
@@ -908,111 +865,48 @@
 <!-- End Echofy Brand Area-->
 <!--==================================================-->
 
-
-
 <!--==================================================-->
-<!-- Strat Echofy Team Area-->
+<!-- Strat Echofy Project Area -->
 <!--==================================================-->
-<div class="team-area">
-	<div class="container">
+<div class="project-area" style="background-color: #f6f6ee; padding-bottom: 100px;">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title center">
-					<h4><img src="assets/images/home1/section-shape.png" alt="">Nuestro Equipo</h4>
-					<h1>Conoce a los creadores de la pagina</h1>
+			<div class="col-lg-9">
+				<div class="section-title left">
+					<h4><img src="assets/images/home1/section-shape.png" alt="">Nuestro blog </h4>
+					<h1>Descubre todas nuestras publicaciones</h1>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="single-team-box">
-					<div class="single-team-thumb">
-						<img src="assets/images/home1/team-1.png" alt="">
-					</div>
-					<div class="team-content">
-						<h4>Rodrigo Juárez</h4>
-						<p>Ingeniero de software</p>
-						<div class="team-social-icon">
-							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-							</ul>
+			<div class="project-list-1 owl-carousel">
+				<div class="col-lg-12">
+					<div class="single-project-box">
+						<div class="project-thumb">
+							<img src="assets/images/home1/project-1.jpg" alt="">
+						</div>
+						<div class="project-content">
+							<h4>Climate</h4>
+							<a href="#">Cleaning Forest</a>
+							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
+							<div class="project-shape">
+								<img src="assets/images/home1/project-shape.png" alt="">
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-team-box">
-					<div class="single-team-thumb">
-						<img src="assets/images/home1/team-2.png" alt="">
-					</div>
-					<div class="team-content">
-						<h4>Roberto Zamora</h4>
-						<p>Mercadologo</p>
-						<div class="team-social-icon">
-							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-team-box">
-					<div class="single-team-thumb">
-						<img src="assets/images/home1/Logo_Eco.png" alt="">
-					</div>
-					<div class="team-content">
-						<h4>Jonathan Serna</h4>
-						<p>Ingeniero de software</p>
-						<div class="team-social-icon">
-							<ul>
-								<li><a href="https://www.instagram.com/jonathan.rsg.serna/"><i class="fab fa-instagram"></i></a></li>
-								<li><a href="https://www.linkedin.com/in/jrsg/"><i class="fab fa-linkedin-in"></i></a></li>
-								<li><a href="https://ecojrsg.github.io/"><i class="fas fa-globe"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6"></div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-team-box">
-					<div class="single-team-thumb">
-						<img src="assets/images/home1/team-4.png" alt="">
-					</div>
-					<div class="team-content">
-						<h4>Armando Gonzalez</h4>
-						<p>Ingeniero de software</p>
-						<div class="team-social-icon">
-							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
+				</div>				
 			</div>
 		</div>
 	</div>
 </div>
 <!--==================================================-->
-<!-- End Echofy Brand Area-->
+<!-- End Echofy Project Area -->
 <!--==================================================-->
-
-
 
 <!--==================================================-->
 <!-- Strat Echofy Blog Area-->
 <!--==================================================-->
-<div class="blog-area">
+<div class="blog-area" style="display: none;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8">
@@ -1279,7 +1173,62 @@
 	<script src="assets/js/vanilla-tilt.min.js"></script>
 	<script src="assets/js/silik-slider.js"></script>
 
-	
+	<script src="./assets/js/data-map.js"></script>
 
+	<script>
+		console.log(data[0]["nombre"])
+		// Crear el mapa y centrarlo en una coordenada con un zoom inicial
+		var map = L.map('map').setView([18.99598, -98.19611], 15);
+
+		// Cargar las capas de los tiles desde OpenStreetMap
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+
+		// Añadir un marcador en una coordenada específica
+		var marker = L.marker([18.99598, -98.19611]).addTo(map)
+		.bindPopup('Estamos aqui.<br>' +
+			`<a href="https://maps.app.goo.gl/vvM4EfAXiDkS39qE9" target="_blank">Abrir en Google Maps</a>`
+		)
+		.openPopup();
+
+		var index = 0
+
+		document.getElementById("nombre").textContent = data[index]['nombre'];
+		document.getElementById("direccion").textContent = data[index]['direccion'];
+		document.getElementById("telefono").textContent = data[index]['telefono'];
+		document.getElementById("tipo_de_pago").textContent = data[index]["donativo_o_pagan"];
+		document.getElementById("correo").textContent = data[index]['correo'];
+		document.getElementById("facebook").textContent = data[index]['facebook'];
+		document.getElementById("pagina_web").textContent = data[index]['pagina_web'];
+
+		data.forEach(function(punto) {
+		L.marker([punto.lat, punto.lng]).addTo(map)
+			.bindPopup('Estamos aqui.<br>' + `<a href="${punto.linkGoogle}" target="_blank">Abrir en Google Maps</a>`)
+		});
+
+		function cambiarLocal(indicador) {
+			// Obtenemos la informacion del local
+			if (indicador > 0 ) {
+				index = (index + indicador) % data.length
+			} else {
+				index = (index + indicador + data.length) % data.length
+			}
+
+			//Actualizamos el mapa
+			// Obtener el siguiente punto
+			var punto = data[index]
+			// Mover el mapa a las coordenadas del siguiente punto
+			map.setView([punto.lat, punto.lng], 15);
+
+			document.getElementById("nombre").textContent = punto.nombre;
+			document.getElementById("direccion").textContent = punto.direccion;
+			document.getElementById("telefono").textContent = punto.telefono;
+			document.getElementById("tipo_de_pago").textContent = punto.tipo_de_pago;
+			document.getElementById("correo").textContent = punto.correo;
+			document.getElementById("facebook").textContent = punto.facebook;
+			document.getElementById("pagina_web").textContent = punto.pagina_web;
+		}
+	</script>
 </body>
 </html>
