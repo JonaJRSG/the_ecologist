@@ -296,7 +296,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
    <!--Echofy Hero Area Css-->
 ==================================---*/
 .hero-area {
-    background: url(../images/home1/hero-bg-1.jpg);
+    background: url(../images/home1/hero-bg-1.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -306,7 +306,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 .hero-style.hero-area{
-    background: url(../images/home1/hero-bg2.jpg);
+    background: url(../images/home1/hero-bg2.webp);
 }
 
 .hero-content h4 {
@@ -875,6 +875,7 @@ p.section-desc {
 
 .service-area .owl-nav {
     position: relative;
+    top: -200px;
 }
 
 .service-area .owl-prev {
@@ -1358,7 +1359,6 @@ a.project-button:hover i{
 .process-area-two {
     background: #F6F6EE;
     padding: 192px 0 93px;
-    margin-top: -80px;
 }
 
 .process-area-two .section-title.center {
@@ -1824,10 +1824,11 @@ transform: rotate(360deg);
    <!--Echofy Footer Area-->
 ==================================---*/
 .footer-area {
-    background: url(../images/home1/footer-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 125px 0 0px;
+    // background: url(../images/home1/footer-bg.jpg);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    background-color: #000;
+    padding: 0px 0 0px;
 }
 
 .footer-social-address {
@@ -10065,8 +10066,12 @@ ul.social-box li a:hover {
     opacity: 0;
 }
 
+/*===========================
+<-- Custom Css -->
+=============================*/
 
-
-
-
-
+#logo {
+    filter: drop-shadow(
+        3px 3px 3px rgba(255, 255, 255, .8)
+    );
+}

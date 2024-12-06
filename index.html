@@ -114,20 +114,30 @@
 		<div class="row align-items-center">
 			<div class="col-lg-3">
 				<div class="header-logo">
-					<a href="index.html"><img src="assets/images/home1/logo.png" alt="logo"></a>
+					<a id="logo" href="index.html"><img src="assets/images/home1/logo.png" alt="logo"></a>
 				</div>
 			</div>
 			<div class="col-lg-9">
 				<div class="header-menu">
 					<ul>
-						<li class="menu-item-has-children"><a href="index.html">Inicio</i></a>
+						<li>
+							<a href="index.html#Inicio">Inicio</i></a>
 						</li>
-						<li><a href="">Sobre Nosotros</a></li>
-						<li class="menu-item-has-children"><a href="#">Blog</a>
+						<li>
+							<a href="index.html#Residuos">Residuos</i></a>
 						</li>
-						<li><a href="">Contacto</a></li>
+						<li>
+							<a href="index.html#Centros">Centros de Reciclaje</i></a>
+						</li>
+						<li>
+							<a href="index.html#Nosotros">Sobre Nosotros</a></li>
+						<li>
+							<a href="index.html#Blog">Blog</a>
+						</li>
+						<li style="display: none;">
+							<a href="">Contacto</a>
+						</li>
 					</ul>
-					
 				</div>
 			</div>
 		</div>
@@ -147,12 +157,23 @@
 	<div class="mobile-menu">
 		<nav class="header-menu">
 			<ul class="nav_scroll">
-				<li class="menu-item-has-children"><a href="#">Home</a>
+				<li>
+					<a href="index.html#Inicio">Inicio</i></a>
 				</li>
-				<li><a href="about.html">Sobre nosotros</a></li>
-				<li class="menu-item-has-children"><a href="#">Blog</a>
+				<li>
+					<a href="index.html#Residuos">Residuos</i></a>
 				</li>
-				<li><a href="contact.html">Contacto</a></li>
+				<li>
+					<a href="index.html#Centros">Centros de Reciclaje</i></a>
+				</li>
+				<li>
+					<a href="index.html#Nosotros">Sobre Nosotros</a></li>
+				<li>
+					<a href="index.html#Blog">Blog</a>
+				</li>
+				<li style="display: none;">
+					<a href="">Contacto</a>
+				</li>
 			</ul>
 		</nav>
 	</div>
@@ -179,11 +200,11 @@
 						<p class="hero-desc" data-animation="fadeInUp" data-delay="800ms" data-duration="1000ms">Reeducando nuestra forma de consumir, transformando el futuro del planeta.</p>
 					</div>
 					<div class="echofy-button" data-animation="fadeInUp" data-delay="1300ms">
-						<a href="#">Descubre como<img src="assets/images/home1/button-shape.png" alt=""></a>
+						<a href="index.html#Inicio">Descubre como<img src="assets/images/home1/button-shape.png" alt=""></a>
 						<img class="two" src="assets/images/home1/button-shape-2.png" alt="">
 					</div>		
 					<div class="echofy-button two" data-animation="fadeInUp" data-delay="1200ms" style="display: none;">
-						<a href="#">Read More</a>
+						<a href="index.html#Inicio">Read More</a>
 					</div>
 				</div>
 			</div>
@@ -207,7 +228,7 @@
 						<p class="hero-desc" data-animation="fadeInUp" data-delay="800ms">Cada paso cuenta: unidos por un planeta más verde, construyamos un legado de esperanza y vida para las generaciones futuras.</p>
 					</div>
 					<div class="echofy-button" data-animation="fadeInUp" data-delay="1000ms">
-						<a href="team.html">Equipo <img src="assets/images/home1/button-shape.png" alt=""></a>
+						<a href="index.html#Nosotros">Equipo <img src="assets/images/home1/button-shape.png" alt=""></a>
 						<img class="two" src="assets/images/home1/button-shape-2.png" alt="">
 					</div>		
 					<div class="echofy-button two" data-animation="fadeInUp" data-delay="1200ms" style="display: none;">
@@ -296,7 +317,7 @@
 <!--==================================================-->
 <!-- Strat Echofy About Area -->
 <!--==================================================-->
-<div class="about-area">
+<div class="about-area" id="Inicio">
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-6">
@@ -334,7 +355,7 @@
 						</div>
 					</div>
 					<div class="echofy-button">
-						<a href="about.html">Conocer más <img src="assets/images/home1/button-shape.png" alt=""></a>
+						<a href="index.html#Residuos">Conocer más <img src="assets/images/home1/button-shape.png" alt=""></a>
 						<img class="two" src="assets/images/home1/button-shape-2.png" alt="">
 					</div>	
                     <div class="about-shape-1">
@@ -357,7 +378,7 @@
 <!--==================================================-->
 <!-- Strat Echofy Service Area -->
 <!--==================================================-->
-<div class="service-area">
+<div class="service-area" id="Residuos">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-9">
@@ -367,7 +388,6 @@
 					<h2>Y qué hacer con ellos</h2>
 				</div>
 			</div>
-			<div class="col-lg-3"></div>
 		</div>
 		<div class="row">
 			<div class="service-list-1 owl-carousel">
@@ -392,6 +412,101 @@
 						</div>
 					</div>
 				</a>
+				<div class="col-lg-12">
+					<div class="single-service-box">
+						<div class="service-content">
+							<div class="service-content-icon">
+								<img src="assets/images/home1/service-icon2.png" alt="">
+							</div>
+							<h4>Papel y carton</h4>
+							<p>
+								Materiales ampliamente reciclables, utilizados en periódicos, cajas y empaques. Su reciclaje ayuda a conservar árboles, reduce el uso de energía y crea nuevos productos como papel reciclado y cartón.
+							</p>
+						</div>
+						<div class="service-thumb">
+							<img src="assets/images/home1/Papel.jpg" alt="">
+						</div>
+						<div class="service-box-shape">
+							<img src="assets/images/home1/service-box-shape.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="single-service-box">
+						<div class="service-content">
+							<div class="service-content-icon">
+								<img src="assets/images/home1/service-icon3.png" alt="">
+							</div>
+							<h4>Vidrio</h4>
+							<p>
+								Es un plástico altamente reciclable utilizado en botellas y envases. Reciclarlo reduce la contaminación y ahorra recursos naturales, convirtiéndolo en nuevos productos como ropa, muebles y más envases.
+							</p>
+						</div>
+						<div class="service-thumb">
+							<img src="assets/images/home1/vidrio.jpg" alt="">
+						</div>
+						<div class="service-box-shape">
+							<img src="assets/images/home1/service-box-shape.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="single-service-box">
+						<div class="service-content">
+							<div class="service-content-icon">
+								<img src="assets/images/home1/service-icon3.png" alt="">
+							</div>
+							<h4>Metales</h4>
+							<p>
+								Incluye aluminio y acero, reciclables al 100%. Reciclar metales como latas de bebidas ahorra energía y recursos naturales, además de reducir la cantidad de residuos y permitir la creación de nuevos productos metálicos.
+							</p>
+						</div>
+						<div class="service-thumb">
+							<img src="assets/images/home1/lata.jpg" alt="">
+						</div>
+						<div class="service-box-shape">
+							<img src="assets/images/home1/service-box-shape.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="single-service-box">
+						<div class="service-content">
+							<div class="service-content-icon">
+								<img src="assets/images/home1/service-icon3.png" alt="">
+							</div>
+							<h4>Electrónica</h4>
+							<p>
+								Componentes electrónicos reciclables como teléfonos, computadoras y cables. Reciclar estos dispositivos ayuda a recuperar metales valiosos, reducir la contaminación por metales pesados y fomentar la reutilización de materiales.
+							</p>
+						</div>
+						<div class="service-thumb">
+							<img src="assets/images/home1/electronica.jpg" alt="">
+						</div>
+						<div class="service-box-shape">
+							<img src="assets/images/home1/service-box-shape.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="single-service-box">
+						<div class="service-content">
+							<div class="service-content-icon">
+								<img src="assets/images/home1/service-icon3.png" alt="">
+							</div>
+							<h4>Tetra Pak</h4>
+							<p>
+								Envase compuesto de cartón, plástico y aluminio utilizado en bebidas. Su reciclaje permite recuperar materiales para producir nuevos productos, reduce el impacto ambiental y conserva recursos valiosos.
+							</p>
+						</div>
+						<div class="service-thumb">
+							<img src="assets/images/home1/tetrapack.jpg" alt="">
+						</div>
+						<div class="service-box-shape">
+							<img src="assets/images/home1/service-box-shape.png" alt="">
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -405,7 +520,7 @@
 <!--==================================================-->
 <!-- Strat Echofy Skill Area -->
 <!--==================================================-->
-<div class="skill-area">
+<div class="skill-area" id="Centros">
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-6 info-map">
@@ -455,7 +570,7 @@
 <!--==================================================-->
 <!-- Strat Echofy Counter Area -->
 <!--==================================================-->
-<div class="counter-area">
+<div class="counter-area" id="Nosotros">
 	<div class="container">
 		<div class="row">
 		    <div class="col-lg-3 col-md-6 col-sm-6">
@@ -538,7 +653,7 @@
 							</p>
 						</div>
 						<div class="echofy-button">
-							<a href="contact.html">Conocenos <img src="assets/images/home1/button-shape.png" alt=""></a>
+							<a href="index.html#Creadores">Conocenos <img src="assets/images/home1/button-shape.png" alt=""></a>
 							<img class="two" src="assets/images/home1/button-shape-2.png" alt="">
 						</div>
 						<div class="process-shape">
@@ -552,7 +667,7 @@
 	<!--==================================================-->
 	<!-- End Echofy Process Area -->
 	<!--==================================================-->
-	<div class="container">
+	<div class="container" id="Creadores">
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<div class="section-title center">
@@ -649,7 +764,7 @@
 <!--==================================================-->
 <!-- Strat Echofy Process Area Two-->
 <!--==================================================-->
-<div class="process-area-two" style="background-color: #f6f6ee;">
+<div class="process-area-two" id="Blog" style="background-color: #f6f6ee;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -883,18 +998,63 @@
 				<div class="col-lg-12">
 					<div class="single-project-box">
 						<div class="project-thumb">
-							<img src="assets/images/home1/project-1.jpg" alt="">
+							<img src="assets/images/inner-images/paneles1.jpg" alt="">
 						</div>
 						<div class="project-content">
-							<h4>Climate</h4>
-							<a href="#">Cleaning Forest</a>
-							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
+							<h4>Energía Renovable</h4>
+							<a href="Paneles-Solares.html">Ahorra con paneles solares</a>
+							<a class="project-button" href="Paneles-Solares.html">Leer<i class="bi bi-arrow-right-short"></i></a>
 							<div class="project-shape">
 								<img src="assets/images/home1/project-shape.png" alt="">
 							</div>
 						</div>
 					</div>
-				</div>				
+				</div>
+				<div class="col-lg-12">
+					<div class="single-project-box">
+						<div class="project-thumb">
+							<img src="assets/images/inner-images/agua1.jpg" alt="">
+						</div>
+						<div class="project-content">
+							<h4>Conservación del Agua</h4>
+							<a href="Conserva-Agua.html">Ahorra agua en casa</a>
+							<a class="project-button" href="Conserva-Agua.html">Leer<i class="bi bi-arrow-right-short"></i></a>
+							<div class="project-shape">
+								<img src="assets/images/home1/project-shape.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="single-project-box">
+						<div class="project-thumb">
+							<img src="assets/images/inner-images/electricidad1.JPG" alt="">
+						</div>
+						<div class="project-content">
+							<h4>Eficiencia Energética en el Hogar</h4>
+							<a href="Eficiencia-Energetica.html">Mejor eficiencia del hogar</a>
+							<a class="project-button" href="Eficiencia-Energetica.html">Leer<i class="bi bi-arrow-right-short"></i></a>
+							<div class="project-shape">
+								<img src="assets/images/home1/project-shape.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="single-project-box">
+						<div class="project-thumb">
+							<img src="assets/images/inner-images/jardin3.jpg" alt="">
+						</div>
+						<div class="project-content">
+							<h4>Jardinería Sostenible</h4>
+							<a href="Jardineria-sostenible.html">Un jardín sostenible</a>
+							<a class="project-button" href="Jardineria-sostenible.html">Leer<i class="bi bi-arrow-right-short"></i></a>
+							<div class="project-shape">
+								<img src="assets/images/home1/project-shape.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>		
 			</div>
 		</div>
 	</div>
@@ -995,7 +1155,7 @@
 <!-- Strat Echofy Footer Area-->
 <!--==================================================-->
 <div class="footer-area">
-	<div class="container">
+	<div class="container" style="display: none;">
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="footer-social-address">
@@ -1089,7 +1249,7 @@
 			<div class="row footer-bottom">
 				<div class="col-md-12 text-center">
 					<div class="footer-bottom-content">
-						<h4>© Copyrights 2024 Echofy All rights reserved by <a href="#">Dream IT.</a></h4>
+						<h4>© Copyrights 2024 Eco - Casa rights reserved by <a href="#">The Ecologist.</a></h4>
 					</div>
 				</div>
 			</div>
